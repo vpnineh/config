@@ -82,7 +82,11 @@ class AppConfig:
     
     ENABLE_CONNECTIVITY_TEST = True 
     CONNECTIVITY_TEST_TIMEOUT = 4
-    MAX_CONNECTIVITY_TESTS = 250
+    # How many times to probe each config (higher => more confidence, slower).
+    CONNECTIVITY_ATTEMPTS = 3
+    # Minimum successful probes (out of CONNECTIVITY_ATTEMPTS) to consider a config active.
+    CONNECTIVITY_MIN_SUCCESSES = 2
+    MAX_CONNECTIVITY_TESTS = 1000
 
 
     # Extra safety to prevent hanging sockets after connect() succeeds but no data is received.
@@ -161,6 +165,9 @@ class BaseConfig(BaseModel):
     country: Optional[str] = Field("XX", exclude=True)
     source_type: str = Field("unknown", exclude=True)
     ping: Optional[int] = Field(None, exclude=True)
+    # Connectivity probing stats (excluded from serialization)
+    connect_attempts: int = Field(0, exclude=True)
+    connect_successes: int = Field(0, exclude=True)
     asn_org: Optional[str] = Field(None, exclude=True)
 
     def get_deduplication_key(self) -> str:
@@ -609,9 +616,11 @@ class FileManager:
                 return json.loads(await f.read())
         except Exception: return []
 
-    async def write_configs_to_file(self, file_path: Path, configs: List[BaseConfig], base64_encode: bool = True):
+    async def write_configs_to_file(self, file_path: Path, configs: List[BaseConfig], base64_encode: bool = True, add_signatures: Optional[bool] = None):
         if not configs: return
-        final_list = self._add_signatures(configs) if CONFIG.ADD_SIGNATURES else [c.to_uri() for c in configs]
+        if add_signatures is None:
+            add_signatures = CONFIG.ADD_SIGNATURES
+        final_list = self._add_signatures(configs) if add_signatures else [c.to_uri() for c in configs]
         content = "\n".join(final_list)
         if base64_encode: content = base64.b64encode(content.encode('utf-8')).decode('utf-8')
         try:
@@ -790,29 +799,123 @@ class ConfigProcessor:
         self.parsed_configs = kept_configs
         console.log(f"IP-based deduplication removed {removed_count} configs. {len(self.parsed_configs)} remaining.")
 
+    async def _test_tcp_connection_multi(self, config: BaseConfig, attempts: int, min_successes: int) -> Tuple[Optional[int], int, int]:
+
+            """Probe a config multiple times to estimate stability.
+
+
+            Returns: (median_ping_ms or None, successes, attempts)
+
+            A config is considered active only if successes >= min_successes.
+
+            """
+
+            pings: List[int] = []
+
+            successes = 0
+
+
+            for _ in range(max(1, int(attempts))):
+
+                ping = await self._test_tcp_connection(config)
+
+                if ping is not None:
+
+                    successes += 1
+
+                    pings.append(int(ping))
+
+
+                # tiny jitter to avoid thundering herd against the same destination
+
+                await asyncio.sleep(0.02)
+
+
+            median_ping: Optional[int] = None
+
+            if pings:
+
+                pings_sorted = sorted(pings)
+
+                median_ping = pings_sorted[len(pings_sorted) // 2]
+
+
+            if successes < int(min_successes):
+
+                return None, successes, int(attempts)
+
+
+            return median_ping, successes, int(attempts)
+
+
     async def _test_tcp_connection(self, config: BaseConfig) -> Optional[int]:
-            ip = Geolocation._ip_cache.get(config.host)
+            """Basic reachability probe.
+
+            - Resolves hostnames if not already cached.
+            - Performs a bounded TCP connect.
+            - For typical TLS ports and hostname-based configs, also tries a minimal TLS handshake.
+
+            Returns ping (ms) on success, else None.
+            """
+
+            host = (config.host or "").strip()
+            if not host:
+                return None
+
+            # Resolve IP if needed.
+            ip = Geolocation._ip_cache.get(host)
+            if not ip:
+                try:
+                    loop = asyncio.get_running_loop()
+                    infos = await loop.getaddrinfo(host, None, type=socket.SOCK_STREAM)
+                    # Pick the first resolved address.
+                    if infos:
+                        ip = infos[0][4][0]
+                        Geolocation._ip_cache[host] = ip
+                except Exception:
+                    return None
+
             if not ip:
                 return None
 
             loop = asyncio.get_running_loop()
             start_time = loop.time()
             writer = None
-            try:
-                # Timeout for the whole operation (connect + minimal IO).
-                async def _do():
-                    nonlocal writer
-                    reader, writer = await asyncio.open_connection(ip, config.port)
-                    # Some servers never send any data. We do a tiny write and then a tiny read,
-                    # both bounded by timeouts to avoid hanging forever.
-                    writer.write(b"\x01")
-                    await asyncio.wait_for(writer.drain(), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
 
-                    try:
-                        await asyncio.wait_for(reader.read(1), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
-                    except asyncio.TimeoutError:
-                        # No bytes received is still a successful TCP connect.
-                        pass
+            async def _tcp_connect() -> None:
+                nonlocal writer
+                reader, writer = await asyncio.open_connection(ip, int(config.port))
+                # Tiny IO to ensure the socket is usable.
+                writer.write(b"\x01")
+                await asyncio.wait_for(writer.drain(), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+                try:
+                    await asyncio.wait_for(reader.read(1), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+                except asyncio.TimeoutError:
+                    pass
+
+            async def _tls_handshake() -> None:
+                # Only attempt TLS on typical TLS-ish ports and only when host is a hostname.
+                if is_ip_address(host):
+                    return
+                if int(config.port) not in (443, 8443, 2053, 2083, 2087, 2096):
+                    return
+                sni = (config.sni or host).strip() or host
+                try:
+                    import ssl
+                    ctx = ssl.create_default_context()
+                    ctx.check_hostname = False
+                    ctx.verify_mode = ssl.CERT_NONE
+                    r, w = await asyncio.open_connection(ip, int(config.port), ssl=ctx, server_hostname=sni)
+                    w.close()
+                    await w.wait_closed()
+                except Exception:
+                    # TLS handshake failed; we still treat plain TCP as the basic signal.
+                    return
+
+            try:
+                async def _do():
+                    await _tcp_connect()
+                    await _tls_handshake()
 
                 await asyncio.wait_for(_do(), timeout=CONFIG.CONNECTIVITY_TEST_TIMEOUT)
                 end_time = loop.time()
@@ -836,9 +939,14 @@ class ConfigProcessor:
 
             sem = asyncio.Semaphore(CONFIG.CONNECTIVITY_MAX_CONCURRENCY)
 
-            async def run_one(cfg: BaseConfig) -> Tuple[BaseConfig, Optional[int]]:
+            async def run_one(cfg: BaseConfig) -> Tuple[BaseConfig, Optional[int], int, int]:
                 async with sem:
-                    return cfg, await self._test_tcp_connection(cfg)
+                    median_ping, successes, attempts = await self._test_tcp_connection_multi(
+                        cfg,
+                        attempts=CONFIG.CONNECTIVITY_ATTEMPTS,
+                        min_successes=CONFIG.CONNECTIVITY_MIN_SUCCESSES,
+                    )
+                    return cfg, median_ping, successes, attempts
 
             with Progress(
                 TextColumn("[bold blue]Testing Connectivity..."),
@@ -852,9 +960,13 @@ class ConfigProcessor:
 
                 tasks = [asyncio.create_task(run_one(cfg)) for cfg in configs_to_test]
                 for done in asyncio.as_completed(tasks):
-                    cfg, ping_result = await done
+                    cfg, ping_result, successes, attempts = await done
+                    cfg.connect_attempts = attempts
+                    cfg.connect_successes = successes
                     if ping_result is not None:
                         cfg.ping = ping_result
+                    else:
+                        cfg.ping = None
                     progress.update(ping_task, advance=1)
 
             self.active_configs_count = sum(1 for c in configs_to_test if c.ping is not None)
@@ -986,6 +1098,146 @@ class V2RayCollectorApp:
         name = re.sub(r'[\U0001F600-\U0001F64F\U0001F300-\U0001F5FF\U0001F680-\U0001F6FF\U0001F700-\U0001F77F\U0001F780-\U0001F7FF\U0001F800-\U0001F8FF\U0001F900-\U0001F9FF\U0001FA00-\U0001FA6F\U0001FA70-\U0001FAFF\U00002702-\U000027B0\U00002620-\U0000262F\U00002300-\U000023FF\U00002B50]', '', name)
         return re.sub(r'[\\/*?:"<>|,@=]', "", name).replace(" ", "_")
 
+    def _select_best_actives(self, tested_configs: List[BaseConfig], all_configs: List[BaseConfig], target: int = 200) -> List[BaseConfig]:
+        """Pick up to `target` configs for actives.txt.
+
+        Notes:
+        - actives.txt is written with *exactly* `target` configs (no signature rows).
+        - Selection is biased toward configs that are more likely to work on typical networks:
+          * prefers well-known web ports (80/443 and common variants),
+          * prefers domain-based hosts over raw IP literals (often better for hostname/SNI/CDN setups),
+          * uses measured median ping and repeated-probe stability when available.
+
+        This is a *general* reliability heuristic based on observed reachability from the machine
+        running the script.
+        """
+
+        # Common web ports are frequently more reachable across many environments.
+        preferred_ports = {
+            443, 8443,
+            80, 8080, 8880,
+            2053, 2083, 2087, 2096,
+        }
+
+        # Stronger bonuses for preferred ports.
+        preferred_port_bonus = {
+            443: 2.0,
+            8443: 1.2,
+            2053: 1.0, 2083: 1.0, 2087: 1.0, 2096: 1.0,
+            80: 0.8,
+            8080: 0.4,
+            8880: 0.3,
+        }
+
+        def _is_domain_host(host: str) -> bool:
+            # Reject raw IP literals; keep anything that looks like a hostname.
+            return bool(host) and (not is_ip_address(host))
+
+        def _score(cfg: BaseConfig) -> float:
+            score = 0.0
+
+            # Dominant signal: lower ping is better.
+            if cfg.ping is not None:
+                score += max(0.0, 3000.0 - float(cfg.ping)) / 800.0  # ~0..3.75
+            else:
+                score -= 2.5
+
+            # Prefer configs that were stable across repeated probes.
+            if getattr(cfg, 'connect_attempts', 0) > 0:
+                success_rate = float(getattr(cfg, 'connect_successes', 0)) / max(1.0, float(cfg.connect_attempts))
+                score += success_rate * 2.5          # 0..2.5
+                score += min(float(cfg.connect_successes), 4.0) * 0.25  # up to +1.0
+                if success_rate < 1.0:
+                    score -= 0.25
+
+            # Prefer TLS-ish when present.
+            sec = (cfg.security or "none").lower()
+            if sec in ("tls", "xtls", "reality"):
+                score += 0.7
+            elif sec == "none":
+                score -= 0.25
+
+            # Domain hosts are preferred.
+            if _is_domain_host(cfg.host):
+                score += 0.4
+            else:
+                score -= 2.0
+
+            # Strong preference for common web ports.
+            score += preferred_port_bonus.get(int(cfg.port), -0.4)
+
+            # Minor preference for tcp/ws networks (usually simpler to reach).
+            net = (cfg.network or "").lower()
+            if net in ("tcp", "ws", "grpc"):
+                score += 0.1
+
+            return score
+
+        # Build pool in tiers so we can keep actives.txt at exactly `target` entries:
+        # Tier 1: tested & active + domain host + preferred port
+        tested = list(tested_configs)
+        tier1 = [c for c in tested if _is_domain_host(c.host) and int(c.port) in preferred_ports]
+
+        # Tier 2: tested & active + domain host (any port)
+        tier2 = [c for c in tested if _is_domain_host(c.host) and c not in tier1]
+
+        # Tier 3: untested (no ping) + domain host + preferred port
+        untested = [c for c in all_configs if c.ping is None]
+        tier3 = [c for c in untested if _is_domain_host(c.host) and int(c.port) in preferred_ports]
+
+        # Tier 4: untested (no ping) + domain host (any port)
+        tier4 = [c for c in untested if _is_domain_host(c.host) and c not in tier3]
+
+        # Final pool (domain hosts only).
+        pool: List[BaseConfig] = tier1 + tier2 + tier3 + tier4
+
+        # Score + sort.
+        scored = sorted(pool, key=_score, reverse=True)
+
+        selected: List[BaseConfig] = []
+        country_count: Counter = Counter()
+        asn_count: Counter = Counter()
+
+        max_per_country = max(25, target // 3)
+        max_per_asn = max(35, target // 2)
+
+        existing_keys: Set[str] = set()
+        for cfg in scored:
+            if len(selected) >= target:
+                break
+
+            key = cfg.get_deduplication_key()
+            if key in existing_keys:
+                continue
+
+            cc = cfg.country or "XX"
+            asn = cfg.asn_org or "UNKNOWN"
+
+            # Apply diversity caps *lightly* (so we don't starve selection).
+            if country_count[cc] >= max_per_country:
+                continue
+            if asn_count[asn] >= max_per_asn:
+                continue
+
+            selected.append(cfg)
+            existing_keys.add(key)
+            country_count[cc] += 1
+            asn_count[asn] += 1
+
+        # Fill remaining without diversity constraints (still domain-only) if needed.
+        if len(selected) < target:
+            for cfg in scored:
+                if len(selected) >= target:
+                    break
+                key = cfg.get_deduplication_key()
+                if key in existing_keys:
+                    continue
+                selected.append(cfg)
+                existing_keys.add(key)
+
+        return selected[:target]
+
+
     async def _save_results(self, all_configs: List[BaseConfig], categories: Dict[str, Any]):
         console.log("Saving categorized configurations...")
         
@@ -1014,14 +1266,17 @@ class V2RayCollectorApp:
             if chunk_size_proto > 0:
                 for i, chunk in enumerate([configs[i:i + chunk_size_proto] for i in range(0, len(configs), chunk_size_proto)][:5]):
                     path = self.config.DIRS["mix_protocol"] / f"mix_{protocol}_{i+1}.txt"
-                    save_tasks.append(self.file_manager.write_configs_to_file(path, chunk, base64_encode=False))
-
-        # Save tested configs
+                    save_tasks.append(self.file_manager.write_configs_to_file(path, chunk, base64_encode=False))        # Save tested configs
         if CONFIG.ENABLE_CONNECTIVITY_TEST:
             tested_configs = [c for c in all_configs if c.ping is not None]
             if tested_configs:
+                # Keep actives.txt limited to 200 configs and prioritize general reliability
+                # (lower ping from the current machine, common HTTPS ports, TLS where available).
+                selected_actives = self._select_best_actives(tested_configs, all_configs, target=200)
+
                 path = self.config.DIRS["tested_configs"] / "actives.txt"
-                save_tasks.append(self.file_manager.write_configs_to_file(path, tested_configs, base64_encode=False))
+                # For actives.txt, we do NOT add signature rows so the file contains exactly 200 configs.
+                save_tasks.append(self.file_manager.write_configs_to_file(path, selected_actives, base64_encode=False, add_signatures=False))
                 
                 if len(tested_configs) > 1000:
                     chunk_size_tested = math.ceil(len(tested_configs) / 10)
