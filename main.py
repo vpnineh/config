@@ -80,7 +80,7 @@ class AppConfig:
     ENABLE_SEEN_CONFIG_FILTER = False
     SEEN_CONFIG_TIMEOUT_HOURS = 1
     
-    ENABLE_CONNECTIVITY_TEST = True  # ایران مخصوص 
+    ENABLE_CONNECTIVITY_TEST = False  # تنظیمات کلی اتصال 
     CONNECTIVITY_TEST_TIMEOUT = 8
     MAX_CONNECTIVITY_TESTS = 200
 
@@ -1169,3 +1169,10 @@ async def test_tcp_connection_with_iran_policy(config: BaseConfig) -> Optional[i
         return None
     # ادامه تست‌های اتصال با تایم‌اوت جدید
     return await _test_tcp_connection(config)
+
+# سیاست ایران فقط برای انتخاب کانفیگ‌های فعال (actives.txt)
+async def test_active_config_with_iran_policy(config: BaseConfig) -> Optional[int]:
+    ip = Geolocation._ip_cache.get(config.host)
+    if not ip or config.port not in ALLOWED_PORTS:
+        return None  # این کانفیگ از فیلتر رد می‌شود
+    return await _test_tcp_connection(config)  # ادامه تست با تایم‌اوت‌های بیشتر و سیاست‌های ایران
