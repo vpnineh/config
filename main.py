@@ -80,19 +80,19 @@ class AppConfig:
     ENABLE_SEEN_CONFIG_FILTER = False
     SEEN_CONFIG_TIMEOUT_HOURS = 1
     
-    ENABLE_CONNECTIVITY_TEST = False  # تنظیمات کلی اتصال 
-    CONNECTIVITY_TEST_TIMEOUT = 8
-    MAX_CONNECTIVITY_TESTS = 200
+    ENABLE_CONNECTIVITY_TEST = False  # اعمال سیاست ایران فقط برای actives.txt 
+    CONNECTIVITY_TEST_TIMEOUT = 4
+    MAX_CONNECTIVITY_TESTS = 200  # محدود کردن تعداد کانفیگ‌ها به 200
 
 
     # Extra safety to prevent hanging sockets after connect() succeeds but no data is received.
-    CONNECTIVITY_IO_TIMEOUT = 3.0  # تایم‌اوت برای تست‌های IO در ایران بیشتر می‌شود
+    CONNECTIVITY_IO_TIMEOUT = 2.0
     CONNECTIVITY_MAX_CONCURRENCY = 100
     ADD_SIGNATURES = True
     ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @VPNineh"
     DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @VPNineh"
     DEV_SIGNATURE = "</> Collector v6.0.0"
-    CUSTOM_SIGNATURE = ""
+    CUSTOM_SIGNATURE = "「 PlanAsli ☕ 」"
 
 CONFIG = AppConfig()
 console = Console()
@@ -1159,20 +1159,9 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 
-# تغییرات برای فیلتر کردن پورت‌های معمول ایران
-# پورت‌هایی که برای اتصال در ایران مناسب‌تر هستند
-ALLOWED_PORTS = [443, 80]
-
-async def test_tcp_connection_with_iran_policy(config: BaseConfig) -> Optional[int]:
-    ip = Geolocation._ip_cache.get(config.host)
-    if not ip or config.port not in ALLOWED_PORTS:
-        return None
-    # ادامه تست‌های اتصال با تایم‌اوت جدید
-    return await _test_tcp_connection(config)
-
 # سیاست ایران فقط برای انتخاب کانفیگ‌های فعال (actives.txt)
 async def test_active_config_with_iran_policy(config: BaseConfig) -> Optional[int]:
     ip = Geolocation._ip_cache.get(config.host)
-    if not ip or config.port not in ALLOWED_PORTS:
+    if not ip or config.port not in [443, 80]:  # فیلتر کردن پورت‌های غیر معمول
         return None  # این کانفیگ از فیلتر رد می‌شود
     return await _test_tcp_connection(config)  # ادامه تست با تایم‌اوت‌های بیشتر و سیاست‌های ایران
