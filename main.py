@@ -89,8 +89,8 @@ class AppConfig:
     CONNECTIVITY_IO_TIMEOUT = 2.0
     CONNECTIVITY_MAX_CONCURRENCY = 100
     ADD_SIGNATURES = True
-    ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @OXNET_IR"
-    DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @OXNET_IR"
+    ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @VPNineh"
+    DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @VPNineh"
     DEV_SIGNATURE = "</> Collector v6.0.0"
     CUSTOM_SIGNATURE = "「 PlanAsli ☕ 」"
 
