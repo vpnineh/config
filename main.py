@@ -82,14 +82,15 @@ class AppConfig:
     
     ENABLE_CONNECTIVITY_TEST = True 
     CONNECTIVITY_TEST_TIMEOUT = 4
-    MAX_CONNECTIVITY_TESTS = 1200
+    MAX_CONNECTIVITY_TESTS = 250
 
-    # actives.txt selection
-    ACTIVES_LIMIT = 200  # keep at most this many configs in sub/tested_configs/actives.txt
-    IRAN_ACTIVES_POLICY = True  # rank actives for higher chance from Iran (heuristic)
+
+    # Extra safety to prevent hanging sockets after connect() succeeds but no data is received.
+    CONNECTIVITY_IO_TIMEOUT = 2.0
+    CONNECTIVITY_MAX_CONCURRENCY = 100
     ADD_SIGNATURES = True
-    ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @OXNET_IR"
-    DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @OXNET_IR"
+    ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @VPNineh"
+    DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @VPNineh"
     DEV_SIGNATURE = "</> Collector v6.0.0"
     CUSTOM_SIGNATURE = "「 PlanAsli ☕ 」"
 
@@ -144,77 +145,6 @@ def is_ip_address(address: str) -> bool:
         return True
     except ValueError:
         return False
-
-
-
-# Heuristic ranking for configs that are more likely to work under Iran's filtering.
-# Note: This does NOT guarantee usability from Iran (GitHub runners are outside Iran),
-# but it helps bias actives.txt toward commonly resilient patterns (TLS/Reality, 443, domain+SNI, etc.).
-COMMON_WEB_PORTS = {443, 80, 2053, 2083, 2087, 2096, 8443}
-
-def iran_likelihood_score(cfg: "BaseConfig") -> int:
-    score = 0
-
-    # Protocol bias (UDP-heavy protocols are often less reliable under interference)
-    proto = (cfg.protocol or "").lower()
-    if proto in {"vless", "trojan"}:
-        score += 15
-    elif proto in {"vmess", "shadowsocks"}:
-        score += 8
-    elif proto in {"hysteria2", "tuic"}:
-        score -= 25
-
-    # Port bias
-    port = int(getattr(cfg, "port", 0) or 0)
-    if port == 443:
-        score += 40
-    elif port == 80:
-        score += 25
-    elif port in COMMON_WEB_PORTS:
-        score += 15
-    else:
-        score -= 10
-
-    # Security / transport bias
-    sec = (getattr(cfg, "security", "") or "").lower()
-    src = (getattr(cfg, "source_type", "") or "").lower()
-    if sec == "reality" or src == "reality":
-        score += 40
-    elif sec in {"tls", "xtls"}:
-        score += 25
-    elif sec in {"none", ""}:
-        score -= 20
-
-    net = (getattr(cfg, "network", "") or "").lower()
-    if net == "ws":
-        score += 20
-    elif net == "grpc":
-        score += 15
-    elif net == "tcp":
-        score += 5
-    elif net:
-        # unknown/less common transports
-        score -= 5
-
-    # Host / SNI bias (domain+SNI is usually more resilient than raw IP for TLS)
-    host = (getattr(cfg, "host", "") or "").strip()
-    sni = (getattr(cfg, "sni", "") or "").strip()
-    if host and is_ip_address(host):
-        score -= 25
-    elif host:
-        score += 15
-
-    if sni and not is_ip_address(sni):
-        score += 15
-    elif sec in {"tls", "xtls", "reality"} and not sni:
-        score -= 10
-
-    # Fingerprint (fp) sometimes helps with DPI
-    fp = (getattr(cfg, "fingerprint", "") or "").strip()
-    if fp:
-        score += 5
-
-    return score
 
 class BaseConfig(BaseModel):
     model_config = {'str_strip_whitespace': True}
@@ -861,52 +791,74 @@ class ConfigProcessor:
         console.log(f"IP-based deduplication removed {removed_count} configs. {len(self.parsed_configs)} remaining.")
 
     async def _test_tcp_connection(self, config: BaseConfig) -> Optional[int]:
-        ip = Geolocation._ip_cache.get(config.host)
-        if not ip: return None
-        
-        try:
-            start_time = asyncio.get_event_loop().time()
-            fut = asyncio.open_connection(ip, config.port)
-            reader, writer = await asyncio.wait_for(fut, timeout=CONFIG.CONNECTIVITY_TEST_TIMEOUT)
-            
-            writer.write(b"\x01") 
-            await writer.drain()
-            await reader.read(1)
+            ip = Geolocation._ip_cache.get(config.host)
+            if not ip:
+                return None
 
-            end_time = asyncio.get_event_loop().time()
-            writer.close()
-            await writer.wait_closed()
-            return int((end_time - start_time) * 1000)
-        except (asyncio.TimeoutError, ConnectionRefusedError, OSError, Exception):
-            return None
+            loop = asyncio.get_running_loop()
+            start_time = loop.time()
+            writer = None
+            try:
+                # Timeout for the whole operation (connect + minimal IO).
+                async def _do():
+                    nonlocal writer
+                    reader, writer = await asyncio.open_connection(ip, config.port)
+                    # Some servers never send any data. We do a tiny write and then a tiny read,
+                    # both bounded by timeouts to avoid hanging forever.
+                    writer.write(b"\x01")
+                    await asyncio.wait_for(writer.drain(), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+
+                    try:
+                        await asyncio.wait_for(reader.read(1), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+                    except asyncio.TimeoutError:
+                        # No bytes received is still a successful TCP connect.
+                        pass
+
+                await asyncio.wait_for(_do(), timeout=CONFIG.CONNECTIVITY_TEST_TIMEOUT)
+                end_time = loop.time()
+                return int((end_time - start_time) * 1000)
+            except (asyncio.TimeoutError, ConnectionRefusedError, OSError, Exception):
+                return None
+            finally:
+                if writer is not None:
+                    try:
+                        writer.close()
+                        await writer.wait_closed()
+                    except Exception:
+                        pass
 
     async def _test_connectivity(self):
-        configs_to_test = list(self.parsed_configs.values())
-        if len(configs_to_test) > CONFIG.MAX_CONNECTIVITY_TESTS:
-            configs_to_test = random.sample(configs_to_test, CONFIG.MAX_CONNECTIVITY_TESTS)
-        
-        self.tested_configs_count = len(configs_to_test)
+            configs_to_test = list(self.parsed_configs.values())
+            if len(configs_to_test) > CONFIG.MAX_CONNECTIVITY_TESTS:
+                configs_to_test = random.sample(configs_to_test, CONFIG.MAX_CONNECTIVITY_TESTS)
 
-        with Progress(
-            TextColumn("[bold blue]Testing Connectivity..."),
-            BarColumn(bar_width=None),
-            "[progress.percentage]{task.percentage:>3.0f}%",
-            "•",
-            TextColumn("[green]{task.completed}/{task.total} Tested"),
-            console=console
-        ) as progress:
-            ping_task = progress.add_task("pinging", total=len(configs_to_test))
-            
-            tasks = [self._test_tcp_connection(config) for config in configs_to_test]
-            results = await asyncio.gather(*tasks)
+            self.tested_configs_count = len(configs_to_test)
 
-            for config, ping_result in zip(configs_to_test, results):
-                if ping_result is not None:
-                    config.ping = ping_result
-                progress.update(ping_task, advance=1)
-        
-        self.active_configs_count = sum(1 for c in configs_to_test if c.ping is not None)
-        console.log(f"Connectivity test complete. {self.active_configs_count}/{self.tested_configs_count} configs responded.")
+            sem = asyncio.Semaphore(CONFIG.CONNECTIVITY_MAX_CONCURRENCY)
+
+            async def run_one(cfg: BaseConfig) -> Tuple[BaseConfig, Optional[int]]:
+                async with sem:
+                    return cfg, await self._test_tcp_connection(cfg)
+
+            with Progress(
+                TextColumn("[bold blue]Testing Connectivity..."),
+                BarColumn(bar_width=None),
+                "[progress.percentage]{task.percentage:>3.0f}%",
+                "•",
+                TextColumn("[green]{task.completed}/{task.total} Tested"),
+                console=console
+            ) as progress:
+                ping_task = progress.add_task("pinging", total=len(configs_to_test))
+
+                tasks = [asyncio.create_task(run_one(cfg)) for cfg in configs_to_test]
+                for done in asyncio.as_completed(tasks):
+                    cfg, ping_result = await done
+                    if ping_result is not None:
+                        cfg.ping = ping_result
+                    progress.update(ping_task, advance=1)
+
+            self.active_configs_count = sum(1 for c in configs_to_test if c.ping is not None)
+            console.log(f"Connectivity test complete. {self.active_configs_count}/{self.tested_configs_count} configs responded.")
 
     def _format_config_remarks(self):
         for config in self.parsed_configs.values():
@@ -1068,21 +1020,17 @@ class V2RayCollectorApp:
         if CONFIG.ENABLE_CONNECTIVITY_TEST:
             tested_configs = [c for c in all_configs if c.ping is not None]
             if tested_configs:
-                # Keep actives.txt small and biased toward configs that are more likely to work from Iran.
-                # We rank by a heuristic score first, then by lower ping.
-                if getattr(CONFIG, "IRAN_ACTIVES_POLICY", False):
-                    tested_configs.sort(
-                        key=lambda c: (-iran_likelihood_score(c), c.ping if c.ping is not None else 999999)
-                    )
-                else:
-                    tested_configs.sort(key=lambda c: c.ping if c.ping is not None else 999999)
-
-                limited = tested_configs[: getattr(CONFIG, "ACTIVES_LIMIT", 200)]
                 path = self.config.DIRS["tested_configs"] / "actives.txt"
-                save_tasks.append(self.file_manager.write_configs_to_file(path, limited, base64_encode=False))
+                save_tasks.append(self.file_manager.write_configs_to_file(path, tested_configs, base64_encode=False))
+                
+                if len(tested_configs) > 1000:
+                    chunk_size_tested = math.ceil(len(tested_configs) / 10)
+                    for i, chunk in enumerate([tested_configs[i:i + chunk_size_tested] for i in range(0, len(tested_configs), chunk_size_tested)]):
+                        path = self.config.DIRS["tested_configs"] / f"mixed_{i+1}.txt"
+                        save_tasks.append(self.file_manager.write_configs_to_file(path, chunk, base64_encode=False))
+
 
         await asyncio.gather(*save_tasks)
-
 
     def _print_summary_report(self, processor: ConfigProcessor):
         all_configs = processor.get_all_unique_configs()
