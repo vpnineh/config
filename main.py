@@ -84,6 +84,10 @@ class AppConfig:
     CONNECTIVITY_TEST_TIMEOUT = 4
     MAX_CONNECTIVITY_TESTS = 250
 
+
+    # Extra safety to prevent hanging sockets after connect() succeeds but no data is received.
+    CONNECTIVITY_IO_TIMEOUT = 2.0
+    CONNECTIVITY_MAX_CONCURRENCY = 100
     ADD_SIGNATURES = True
     ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @OXNET_IR"
     DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @OXNET_IR"
@@ -787,52 +791,74 @@ class ConfigProcessor:
         console.log(f"IP-based deduplication removed {removed_count} configs. {len(self.parsed_configs)} remaining.")
 
     async def _test_tcp_connection(self, config: BaseConfig) -> Optional[int]:
-        ip = Geolocation._ip_cache.get(config.host)
-        if not ip: return None
-        
-        try:
-            start_time = asyncio.get_event_loop().time()
-            fut = asyncio.open_connection(ip, config.port)
-            reader, writer = await asyncio.wait_for(fut, timeout=CONFIG.CONNECTIVITY_TEST_TIMEOUT)
-            
-            writer.write(b"\x01") 
-            await writer.drain()
-            await reader.read(1)
+            ip = Geolocation._ip_cache.get(config.host)
+            if not ip:
+                return None
 
-            end_time = asyncio.get_event_loop().time()
-            writer.close()
-            await writer.wait_closed()
-            return int((end_time - start_time) * 1000)
-        except (asyncio.TimeoutError, ConnectionRefusedError, OSError, Exception):
-            return None
+            loop = asyncio.get_running_loop()
+            start_time = loop.time()
+            writer = None
+            try:
+                # Timeout for the whole operation (connect + minimal IO).
+                async def _do():
+                    nonlocal writer
+                    reader, writer = await asyncio.open_connection(ip, config.port)
+                    # Some servers never send any data. We do a tiny write and then a tiny read,
+                    # both bounded by timeouts to avoid hanging forever.
+                    writer.write(b"\x01")
+                    await asyncio.wait_for(writer.drain(), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+
+                    try:
+                        await asyncio.wait_for(reader.read(1), timeout=CONFIG.CONNECTIVITY_IO_TIMEOUT)
+                    except asyncio.TimeoutError:
+                        # No bytes received is still a successful TCP connect.
+                        pass
+
+                await asyncio.wait_for(_do(), timeout=CONFIG.CONNECTIVITY_TEST_TIMEOUT)
+                end_time = loop.time()
+                return int((end_time - start_time) * 1000)
+            except (asyncio.TimeoutError, ConnectionRefusedError, OSError, Exception):
+                return None
+            finally:
+                if writer is not None:
+                    try:
+                        writer.close()
+                        await writer.wait_closed()
+                    except Exception:
+                        pass
 
     async def _test_connectivity(self):
-        configs_to_test = list(self.parsed_configs.values())
-        if len(configs_to_test) > CONFIG.MAX_CONNECTIVITY_TESTS:
-            configs_to_test = random.sample(configs_to_test, CONFIG.MAX_CONNECTIVITY_TESTS)
-        
-        self.tested_configs_count = len(configs_to_test)
+            configs_to_test = list(self.parsed_configs.values())
+            if len(configs_to_test) > CONFIG.MAX_CONNECTIVITY_TESTS:
+                configs_to_test = random.sample(configs_to_test, CONFIG.MAX_CONNECTIVITY_TESTS)
 
-        with Progress(
-            TextColumn("[bold blue]Testing Connectivity..."),
-            BarColumn(bar_width=None),
-            "[progress.percentage]{task.percentage:>3.0f}%",
-            "•",
-            TextColumn("[green]{task.completed}/{task.total} Tested"),
-            console=console
-        ) as progress:
-            ping_task = progress.add_task("pinging", total=len(configs_to_test))
-            
-            tasks = [self._test_tcp_connection(config) for config in configs_to_test]
-            results = await asyncio.gather(*tasks)
+            self.tested_configs_count = len(configs_to_test)
 
-            for config, ping_result in zip(configs_to_test, results):
-                if ping_result is not None:
-                    config.ping = ping_result
-                progress.update(ping_task, advance=1)
-        
-        self.active_configs_count = sum(1 for c in configs_to_test if c.ping is not None)
-        console.log(f"Connectivity test complete. {self.active_configs_count}/{self.tested_configs_count} configs responded.")
+            sem = asyncio.Semaphore(CONFIG.CONNECTIVITY_MAX_CONCURRENCY)
+
+            async def run_one(cfg: BaseConfig) -> Tuple[BaseConfig, Optional[int]]:
+                async with sem:
+                    return cfg, await self._test_tcp_connection(cfg)
+
+            with Progress(
+                TextColumn("[bold blue]Testing Connectivity..."),
+                BarColumn(bar_width=None),
+                "[progress.percentage]{task.percentage:>3.0f}%",
+                "•",
+                TextColumn("[green]{task.completed}/{task.total} Tested"),
+                console=console
+            ) as progress:
+                ping_task = progress.add_task("pinging", total=len(configs_to_test))
+
+                tasks = [asyncio.create_task(run_one(cfg)) for cfg in configs_to_test]
+                for done in asyncio.as_completed(tasks):
+                    cfg, ping_result = await done
+                    if ping_result is not None:
+                        cfg.ping = ping_result
+                    progress.update(ping_task, advance=1)
+
+            self.active_configs_count = sum(1 for c in configs_to_test if c.ping is not None)
+            console.log(f"Connectivity test complete. {self.active_configs_count}/{self.tested_configs_count} configs responded.")
 
     def _format_config_remarks(self):
         for config in self.parsed_configs.values():
