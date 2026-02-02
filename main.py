@@ -96,7 +96,7 @@ class AppConfig:
     ADV_SIGNATURE = "「 ✨ Free Internet For All 」 @VPNineh"
     DNT_SIGNATURE = "❤️ Your Daily Dose of Proxies @VPNineh"
     DEV_SIGNATURE = "</> Collector v6.0.0"
-    CUSTOM_SIGNATURE = "「 PlanAsli ☕ 」"
+    CUSTOM_SIGNATURE = "「 ☕ 」"
 
 CONFIG = AppConfig()
 console = Console()
