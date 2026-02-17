@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-02-17 20:32:54
+Timestamp: 2026-02-17 21:43:36
 Total Channels: 92
-Successful Scrapes: 48
+Successful Scrapes: 49
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -14,24 +14,27 @@ GalaxyMVPN: 70 configs
 Greenvpn2: 68 configs
 WedBaZtel: 63 configs
 itenvpn: 60 configs
-anty_filter: 52 configs
 confingv2raayng: 48 configs
+anty_filter: 46 configs
 azarbayjab1: 46 configs
-configx2ray: 38 configs
 ConfigX2ray: 38 configs
 freev2rng: 36 configs
-bored_vpn: 33 configs
 masterserver1: 30 configs
-vistav2ray: 23 configs
-ConfigPixelArt: 21 configs
+bored_vpn: 29 configs
+configx2ray: 25 configs
+vistav2ray: 21 configs
 Farah_VPN: 20 configs
+v2ngfast: 20 configs
 vpnpacket: 20 configs
 v2ra_config: 20 configs
 v2rayng_1378: 19 configs
+DALTON_PING: 18 configs
+dalton_ping: 18 configs
+ConfigPixelArt: 17 configs
 WarV2Ray: 17 configs
-v2ngfast: 16 configs
 v2ray_god: 15 configs
-DailyV2Config: 15 configs
+v2ray_configs_pool: 12 configs
+DailyV2Config: 12 configs
 capoit: 9 configs
 tehranargo: 9 configs
 arv2ray: 8 configs
@@ -40,8 +43,6 @@ v2raymelliii: 6 configs
 fnet00: 5 configs
 spikevpn: 5 configs
 v2rayyngvpn: 5 configs
-DALTON_PING: 4 configs
-dalton_ping: 4 configs
 evay_vpn: 4 configs
 vpnkanfik: 4 configs
 SafeNet_Server: 4 configs
