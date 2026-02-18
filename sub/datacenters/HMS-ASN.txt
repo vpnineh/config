@@ -1,16 +1,15 @@
-trojan://9hyzntv4-c1kn-58mb-rjbz-0qpaojrg7d9p@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-02-18 | 09:36 ]
-trojan://nqq1n6a6-1pjq-7i0t-9cd1-rehjzuiqou2g@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://vpv8i186-x4el-tgr3-azp0-8kwu0xoq84uu@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+trojan://a99rqe09-g7qq-lm6h-8qbz-rjspbvbsbzaa@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-02-18 | 11:07 ]
+trojan://t3hiy6js-0dmf-wo19-4bon-099xv7g5cd2x@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://p2psfi9l-pfn1-f0wd-ex0d-ba5uxie1243t@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBITVMtQVNOIFx1MjUwNyAxOTguNjIuNjIuMTk5IiwiYWRkIjoiMTk4LjYyLjYyLjE5OSIsInBvcnQiOjQ0MywiaWQiOiJmMDgzNjlkMS01ZWU3LTRiMTYtZDc4Ni0zMGJjZTEyZmMzM2MiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoib3VzMy5kZWFuNTIudG9wIiwicGF0aCI6Ii9mMDgzNjlkMS01ZWU3LTRiMTYtZDc4Ni0zMGJjZTEyZmMzM2MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJvdXMzLmRlYW41Mi50b3AifQ
 vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@198.62.62.99:2052?type=xhttp&security=none&path=/pabloping#US 🇺🇸 ┇ VLESS-XHTTP-NTLS - HMS-ASN ┇ 198.62.62.99
-vless://fad9bc27-556f-4fec-bbd6-d8605a2ff60a@69.84.182.3:443?type=ws&security=tls&path=/1180/mohmd&sni=a.mohmdmusic.dpdns.org#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.3
-vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBITVMtQVNOIFx1MjUwNyA2OS44NC4xODIuMTYiLCJhZGQiOiI2OS44NC4xODIuMTYiLCJwb3J0Ijo0NDMsImlkIjoiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiYXV0byIsInBhdGgiOiIvIiwidGxzIjoidGxzIn0
-vless://071435dc-6ab9-4502-8441-ed4a4b609092@z1.n1server.org:443?type=grpc&security=tls&sni=n1.n1server.org#US 🇺🇸 ┇ VLESS-GRPC-TLS - HMS-ASN ┇ 69.84.182.63
+vless://2f466a3b-5093-4556-8759-c87c8511c753@69.84.182.152:443?type=ws&security=tls&path=/ws&sni=rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.152
+vless://6b34c2c8-5686-456a-ac0b-ac6289806a84@198.62.62.12:2053?type=tcp&security=tls&path=/#US 🇺🇸 ┇ VLESS-TCP-TLS - HMS-ASN ┇ 198.62.62.12
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@198.62.62.91:443?type=ws&security=tls&path=/&sni=sni.111000.dynv6.net&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 198.62.62.91
 vless://071435dc-6ab9-4502-8441-ed4a4b609092@69.84.182.162:443?type=grpc&security=tls&sni=n1.n1server.org#US 🇺🇸 ┇ VLESS-GRPC-TLS - HMS-ASN ┇ 69.84.182.162
+vless://fad9bc27-556f-4fec-bbd6-d8605a2ff60a@69.84.182.3:443?type=ws&security=tls&path=/1180/mohmd&sni=a.mohmdmusic.dpdns.org#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.3
+vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBITVMtQVNOIFx1MjUwNyA2OS44NC4xODIuMTYiLCJhZGQiOiI2OS44NC4xODIuMTYiLCJwb3J0Ijo0NDMsImlkIjoiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiYXV0byIsInBhdGgiOiIvIiwidGxzIjoidGxzIn0
 vless://71ed6628-5870-4d19-8a52-f2a3ba3d4898@69.84.182.1:443?type=ws&security=tls&path=/youlingkaishi&sni=vbbc.ylks2024.us.kg#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.1
-vless://2f466a3b-5093-4556-8759-c87c8511c753@69.84.182.152:443?type=ws&security=tls&path=/ws&sni=rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.152
-vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBITVMtQVNOIFx1MjUwNyAxOTguNjIuNjIuMTk5IiwiYWRkIjoiMTk4LjYyLjYyLjE5OSIsInBvcnQiOjQ0MywiaWQiOiJmMDgzNjlkMS01ZWU3LTRiMTYtZDc4Ni0zMGJjZTEyZmMzM2MiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0Ijoib3VzMy5kZWFuNTIudG9wIiwicGF0aCI6Ii9mMDgzNjlkMS01ZWU3LTRiMTYtZDc4Ni0zMGJjZTEyZmMzM2MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJvdXMzLmRlYW41Mi50b3AifQ
-vless://6b34c2c8-5686-456a-ac0b-ac6289806a84@198.62.62.12:2053?type=tcp&security=tls&path=/#US 🇺🇸 ┇ VLESS-TCP-TLS - HMS-ASN ┇ 198.62.62.12
-vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@69.84.182.20:443?type=ws&security=tls&path=/ws&sni=rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.20
-trojan://krcrxt6x-l8pt-yos3-5ur1-3b3bzlkimqt3@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://qr9c18eg-b5jh-r32t-795b-towmzl8rgasf@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://2f466a3b-5093-4556-8759-c87c8511c753@69.84.182.20:443?type=ws&security=tls&path=/ws&sni=rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - HMS-ASN ┇ 69.84.182.20
+trojan://3c84j1tk-0fcg-vf2g-xxir-h6iqtr5b9o25@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://qvigks50-gqil-i0yo-hb71-8x03ybggnz5b@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
