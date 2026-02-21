@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-02-21 19:22:04
+Timestamp: 2026-02-21 20:03:47
 Total Channels: 92
-Successful Scrapes: 47
+Successful Scrapes: 46
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -12,14 +12,14 @@ v2rayng_1378: 70 configs
 WedBaZtel: 70 configs
 config_dooni: 70 configs
 GalaxyMVPN: 70 configs
+ZibaNabz: 67 configs
 itenvpn: 63 configs
-ZibaNabz: 60 configs
-ConfigPixelArt: 58 configs
 anty_filter: 49 configs
 Greenvpn2: 49 configs
 masterserver1: 48 configs
 azarbayjab1: 43 configs
-bored_vpn: 33 configs
+bored_vpn: 37 configs
+ConfigPixelArt: 33 configs
 tehranargo: 30 configs
 v2ra_config: 30 configs
 vistav2ray: 29 configs
@@ -43,7 +43,6 @@ v2rayyngvpn: 6 configs
 spikevpn: 5 configs
 fnet00: 4 configs
 evay_vpn: 3 configs
-skivpn: 3 configs
 vpnod: 3 configs
 lexernet: 2 configs
 v2rayfast_7: 2 configs
