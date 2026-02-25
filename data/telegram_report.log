@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-02-25 21:07:34
+Timestamp: 2026-02-25 22:40:56
 Total Channels: 92
-Successful Scrapes: 44
+Successful Scrapes: 42
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -9,11 +9,11 @@ configx2ray: 70 configs
 confingv2raayng: 70 configs
 freakconfig: 70 configs
 sockss_http: 70 configs
-v2rayng_1378: 70 configs
 WedBaZtel: 70 configs
 ConfigX2ray: 70 configs
 config_dooni: 70 configs
 GalaxyMVPN: 70 configs
+v2rayng_1378: 69 configs
 itenvpn: 63 configs
 ZibaNabz: 62 configs
 bored_vpn: 61 configs
@@ -24,28 +24,26 @@ azarbayjab1: 43 configs
 v2ngfast: 40 configs
 tehranargo: 32 configs
 vistav2ray: 31 configs
-DALTON_PING: 30 configs
-dalton_ping: 30 configs
 ConfigPixelArt: 26 configs
 v2ra_config: 21 configs
 Farah_VPN: 20 configs
-v2ray_configs_pool: 19 configs
 WarV2Ray: 17 configs
 v2ray_god: 15 configs
+v2ray_configs_pool: 13 configs
 vpnpacket: 12 configs
-v2rayyngvpn: 9 configs
 arv2ray: 8 configs
 expressvpn_420: 8 configs
 mcv2rayng: 8 configs
 skivpn: 7 configs
 v2raymelliii: 7 configs
+v2rayyngvpn: 7 configs
+lexernet: 5 configs
 spikevpn: 5 configs
 fnet00: 4 configs
 vpnod: 3 configs
 capoit: 2 configs
 evay_vpn: 2 configs
 freev2rng: 2 configs
-lexernet: 2 configs
 v2ray_rolly: 2 configs
 SafeNet_Server: 2 configs
 colsvpn: 1 configs
