@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-03-08 14:24:15
+Timestamp: 2026-03-08 14:54:58
 Total Channels: 92
-Successful Scrapes: 35
+Successful Scrapes: 36
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -39,6 +39,7 @@ tehranargo: 2 configs
 v2ray_rolly: 2 configs
 v2raymelliii: 2 configs
 colsvpn: 1 configs
+ConfigPixelArt: 1 configs
 ineronix: 1 configs
 
 --- Failed Channels ---
