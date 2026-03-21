@@ -1,15 +1,15 @@
-trojan://3pd4quet-lplw-4dcy-dkb7-ww8cxg9pj7uj@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-03-21 | 18:03 ]
-trojan://etezz0i5-7z12-hnik-9lyq-2r9direnhtuc@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://hz0baz8n-7us3-ddm1-joww-jlib4kngkokn@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?type=ws&security=none#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 83.228.225.98
-vless://e268f5bd-3319-4bfd-bc88-5bcde2e909f8@83.228.231.196:33279?type=grpc&security=none#CH 🇨🇭 ┇ VLESS-GRPC-NTLS - Infomaniak Network SA ┇ 83.228.231.196
-vless://cb57b920-cd95-4bbf-bd8c-9e58833fcc5c@37.156.45.227:36261?type=ws&security=none&path=//connect#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 37.156.45.227
-vless://4a92cbd1-39c7-4818-9236-dbbb18630c9e@83.228.227.226:8880?type=tcp&security=none#CH 🇨🇭 ┇ VLESS-TCP-NTLS - Infomaniak Network SA ┇ 83.228.227.226
+trojan://04jqoa9r-kuxl-eaid-m1po-6hnlkbwm3xba@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-03-21 | 18:29 ]
+trojan://wvhvd2gb-fm6d-5354-1adb-3n9h4n8cuhyd@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://8he3i5jn-zs1l-mvxf-hyey-3z18rn1fqh4n@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@83.228.220.126:8443?type=tcp&security=reality&sni=dropbox.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.220.126
-vless://c5fdf480-3942-4fc9-9e73-f6899c24bda6@83.228.210.214:443?type=tcp&security=reality&sni=ok.ru&fp=chrome&flow=xtls-rprx-vision&pbk=NQtYh_DzWbKDGV3sOdYUbYS7OQqAF-lG42J-rOm_OH0&sid=41f38b2355acf7bc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.210.214
-vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@83.228.219.194:8443?type=tcp&security=reality&sni=dropbox.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.219.194
+vless://e268f5bd-3319-4bfd-bc88-5bcde2e909f8@83.228.231.196:33279?type=grpc&security=none#CH 🇨🇭 ┇ VLESS-GRPC-NTLS - Infomaniak Network SA ┇ 83.228.231.196
 vless://d022bf00-7885-45b5-a170-bd37cc515fe0@83.228.230.174:46564?type=tcp&security=reality&sni=cloudflare.com&fp=chrome&pbk=BRVg0Eufu2EeUPUp5PhBTD325dTi8M_SFxcpfqFzqz4&sid=3797#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.230.174
+vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?type=ws&security=none#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 83.228.225.98
+vless://c5fdf480-3942-4fc9-9e73-f6899c24bda6@83.228.210.214:443?type=tcp&security=reality&sni=ok.ru&fp=chrome&flow=xtls-rprx-vision&pbk=NQtYh_DzWbKDGV3sOdYUbYS7OQqAF-lG42J-rOm_OH0&sid=41f38b2355acf7bc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.210.214
 vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@83.228.219.69:8443?type=tcp&security=reality&sni=dropbox.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.219.69
+vless://4a92cbd1-39c7-4818-9236-dbbb18630c9e@83.228.227.226:8880?type=tcp&security=none#CH 🇨🇭 ┇ VLESS-TCP-NTLS - Infomaniak Network SA ┇ 83.228.227.226
 vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@83.228.219.237:8443?type=tcp&security=reality&sni=dropbox.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.219.237
-trojan://w2zqy98t-yuqo-iv23-v9et-hakpzhzjqep4@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://6snezsva-lue0-u4j4-hmxv-txgf6pgm13r5@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@83.228.219.194:8443?type=tcp&security=reality&sni=dropbox.com&fp=chrome&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#CH 🇨🇭 ┇ VLESS-TCP-RLT - Infomaniak Network SA ┇ 83.228.219.194
+vless://cb57b920-cd95-4bbf-bd8c-9e58833fcc5c@37.156.45.227:36261?type=ws&security=none&path=//connect#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 37.156.45.227
+trojan://91smxl6c-ans6-kd9a-x8jn-gm3oh6v3sr4n@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://pkzjlhxy-yhbl-a0bv-nnqn-jxlk13gnzwu4@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
