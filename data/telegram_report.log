@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-03-24 17:27:52
+Timestamp: 2026-03-24 18:34:59
 Total Channels: 92
-Successful Scrapes: 38
+Successful Scrapes: 37
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -13,9 +13,8 @@ masterserver1: 62 configs
 v2ngfast: 45 configs
 azarbayjab1: 43 configs
 itenvpn: 34 configs
-DALTON_PING: 29 configs
-dalton_ping: 29 configs
-WedBaZtel: 21 configs
+DALTON_PING: 30 configs
+dalton_ping: 30 configs
 Farah_VPN: 20 configs
 WarV2Ray: 17 configs
 Greenvpn2: 17 configs
