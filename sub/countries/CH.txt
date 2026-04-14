@@ -1,23 +1,22 @@
-trojan://w50n7xfs-hyme-3mhv-dk0m-yprqyxyz3aee@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-04-14 | 10:41 ]
-trojan://67szjm17-2byc-eg7n-e4q4-h99kw6nc9453@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://252y91nu-unn3-dudl-ragr-bu5mqia3s19z@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://7c3f08c8-7b3b-4028-91d8-378a18c2b62a@185.227.149.123:443?type=tcp&security=reality#CH 🇨🇭 ┇ VLESS-TCP-RLT - Digitale Suisse AG ┇ 185.227.149.123
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Private Layer INC ┇ 38.180.161.123
-vless://cdb38f5b-12c3-414b-eacd-a635dc633701@193.168.144.46:443?type=tcp&security=none#CH 🇨🇭 ┇ VLESS-TCP-RLT - Serverd SAS ┇ 193.168.144.46
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.62.160:443#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 156.146.62.160
-ss://YWVzLTI1Ni1jZmI6NDQxNTkzNDI5NQ@37.120.213.230:50004#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 37.120.213.230
-ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw@185.126.116.125:9098#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 185.126.116.125
-vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBBUy1HTE9CQUxURUxFSE9TVCBcdTI1MDcgMTg2LjE5MC4yMTUuNzUiLCJhZGQiOiIxODYuMTkwLjIxNS43NSIsInBvcnQiOjQ0MywiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOjEsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJhdXRvIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMifQ
-vless://82b5b465-3307-4a25-acef-abd1649bbedf@nl1.samovargate.com:443?type=tcp&security=reality&sni=www.microsoft.com&fp=chrome&flow=xtls-rprx-vision&pbk=gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ&sid=f04729f65b9ea261#CH 🇨🇭 ┇ VLESS-TCP-RLT - Host Telecom Ltd ┇ 138.124.5.201
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@212.237.210.158:989#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - ServerBase AG ┇ 212.237.210.158
-vless://e268f5bd-3319-4bfd-bc88-5bcde2e909f8@83.228.231.196:33279?type=grpc&security=none#CH 🇨🇭 ┇ VLESS-GRPC-NTLS - Infomaniak Network SA ┇ 83.228.231.196
-vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBPUkFDTEUtQk1DLTMxODk4IFx1MjUwNyAxNDAuMjM4LjIxMi45NSIsImFkZCI6IjE0MC4yMzguMjEyLjk1IiwicG9ydCI6NDQzLCJpZCI6IjA1NjQxY2Y1LTU4ZDItNGJhNC1hOWYxLWIzY2RhMGIxZmIxZCIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6ImF1dG8iLCJwYXRoIjoiLyIsInRscyI6InRscyJ9
-vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?type=ws&security=none#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 83.228.225.98
-trojan://humanity@185.18.250.245:443?sni=www.calmlunch.com&peer=www.calmlunch.com&security=tls#CH 🇨🇭 ┇ TROJAN-TCP-TLS - Cloudflare London, LLC ┇ 185.18.250.245
-trojan://8a03bc28-2a33-42c4-be59-30464dbb9954@ch12.yukiss.eu.org:18818?security=tls#CH 🇨🇭 ┇ TROJAN-TCP-TLS - ORACLE-BMC-31898 ┇ 152.67.71.149
-vless://fd2bfdd2-68eb-49b0-98ad-ed82f901edde@45.95.232.229:52000?type=tcp&security=reality&sni=music.yandex.ru&fp=chrome&flow=xtls-rprx-vision&pbk=KXqoXRnGxHCnTT17cRpFRhKNj_3km3DnWEJ5L3FtSwg&sid=edd8887128ea#CH 🇨🇭 ┇ VLESS-TCP-RLT - Global Connectivity Solutions Llp ┇ 45.95.232.229
-vless://ba77276e-9939-4c6c-a73e-90e02b6faf13@che-0001-xr.packet-drop-society.net:443?type=tcp&security=reality&sni=hls-svod.itunes.apple.com&fp=chrome&flow=xtls-rprx-vision&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&sid=f79448a30d#CH 🇨🇭 ┇ VLESS-TCP-RLT - Private Layer INC ┇ 179.43.190.72
-vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBBUy1HTE9CQUxURUxFSE9TVCBcdTI1MDcgMTg2LjE5MC4yMTUuMzIiLCJhZGQiOiIxODYuMTkwLjIxNS4zMiIsInBvcnQiOjQ0MywiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOjEsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJhdXRvIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMifQ
+trojan://mh3fn2d9-idaj-qbt2-glm1-hu2ilnwn6dq0@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-04-14 | 12:36 ]
+trojan://z4uxohc5-wqmq-e9bu-xfje-ia65rqj4s9lw@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://gb6l0t22-xfnq-1w9n-gh43-g6qttatplpvy@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBDbG91ZGZsYXJlIExvbmRvbiwgTExDIFx1MjUwNyAxODUuMTguMjUwLjcwIiwiYWRkIjoiMTg1LjE4LjI1MC43MCIsInBvcnQiOjQ0MywiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJhdXRvIiwicGF0aCI6Ii93c3M1MTA2OCIsInRscyI6InRscyJ9
-trojan://hdkcen4g-55zb-5qgy-1i03-putyssd9vria@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://lhg3ern1-nlan-20jq-j2wn-pcohalbaj36j@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+trojan://humanity@185.18.250.245:443?sni=www.calmlunch.com&peer=www.calmlunch.com&security=tls#CH 🇨🇭 ┇ TROJAN-TCP-TLS - Cloudflare London, LLC ┇ 185.18.250.245
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Private Layer INC ┇ 38.180.161.123
+vless://ba77276e-9939-4c6c-a73e-90e02b6faf13@che-0001-xr.packet-drop-society.net:443?type=tcp&security=reality&sni=hls-svod.itunes.apple.com&fp=chrome&flow=xtls-rprx-vision&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&sid=f79448a30d#CH 🇨🇭 ┇ VLESS-TCP-RLT - Private Layer INC ┇ 179.43.190.72
+vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBBUy1HTE9CQUxURUxFSE9TVCBcdTI1MDcgMTg2LjE5MC4yMTUuNzUiLCJhZGQiOiIxODYuMTkwLjIxNS43NSIsInBvcnQiOjQ0MywiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOjEsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJhdXRvIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMifQ
+vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBBUy1HTE9CQUxURUxFSE9TVCBcdTI1MDcgMTg2LjE5MC4yMTUuMzIiLCJhZGQiOiIxODYuMTkwLjIxNS4zMiIsInBvcnQiOjQ0MywiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOjEsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJhdXRvIiwicGF0aCI6Imxpbmt2d3MiLCJ0bHMiOiJ0bHMifQ
+vless://e268f5bd-3319-4bfd-bc88-5bcde2e909f8@83.228.231.196:33279?type=grpc&security=none#CH 🇨🇭 ┇ VLESS-GRPC-NTLS - Infomaniak Network SA ┇ 83.228.231.196
+vless://14ba01de-0de4-48b4-9327-d6a2f7797764@83.228.225.98:24472?type=ws&security=none#CH 🇨🇭 ┇ VLESS-WS-NTLS - Infomaniak Network SA ┇ 83.228.225.98
+vmess://eyJ2IjoiMiIsInBzIjoiQ0ggXHVkODNjXHVkZGU4XHVkODNjXHVkZGVkIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBPUkFDTEUtQk1DLTMxODk4IFx1MjUwNyAxNDAuMjM4LjIxMi45NSIsImFkZCI6IjE0MC4yMzguMjEyLjk1IiwicG9ydCI6NDQzLCJpZCI6IjA1NjQxY2Y1LTU4ZDItNGJhNC1hOWYxLWIzY2RhMGIxZmIxZCIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6ImF1dG8iLCJwYXRoIjoiLyIsInRscyI6InRscyJ9
+ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw@185.126.116.125:9098#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 185.126.116.125
+ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@156.146.62.160:443#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 156.146.62.160
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@212.237.210.158:989#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - ServerBase AG ┇ 212.237.210.158
+trojan://8a03bc28-2a33-42c4-be59-30464dbb9954@ch12.yukiss.eu.org:18818?security=tls#CH 🇨🇭 ┇ TROJAN-TCP-TLS - ORACLE-BMC-31898 ┇ 152.67.71.149
+ss://YWVzLTI1Ni1jZmI6NDQxNTkzNDI5NQ@37.120.213.230:50004#CH 🇨🇭 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 37.120.213.230
+trojan://humanity@185.18.250.252:443?sni=www.gossipglove.com&peer=www.gossipglove.com&security=tls#CH 🇨🇭 ┇ TROJAN-TCP-TLS - Cloudflare London, LLC ┇ 185.18.250.252
+vless://7c3f08c8-7b3b-4028-91d8-378a18c2b62a@185.227.149.123:443?type=tcp&security=reality#CH 🇨🇭 ┇ VLESS-TCP-RLT - Digitale Suisse AG ┇ 185.227.149.123
+vless://cdb38f5b-12c3-414b-eacd-a635dc633701@193.168.144.46:443?type=tcp&security=none#CH 🇨🇭 ┇ VLESS-TCP-RLT - Serverd SAS ┇ 193.168.144.46
+trojan://ildmwyw9-p00x-3pk2-il8g-jsmaam6d1md5@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://r4aneszl-4pcs-3hf3-36s4-jb4vl8gm1bli@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
