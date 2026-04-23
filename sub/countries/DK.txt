@@ -1,20 +1,21 @@
-trojan://h6tzelkf-yx54-gkv3-2tdd-nnxrpghogz6l@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-04-23 | 20:33 ]
-trojan://3wq3bc9x-o806-iz2i-w9vu-9ijh65vzxus0@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://z3wt3w3l-mpgo-ye7d-gdlk-jedh9lrl8jtg@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-trojan://49197da7-4f74-4c34-8229-35561043c113@159.195.6.151:443?sni=www.google.com&peer=www.google.com&security=reality#DK 🇩🇰 ┇ TROJAN-TCP-REALITY ┇ 159.195.6.151
-trojan://1234567890@159.195.44.151:443?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.44.151
+trojan://hlyz63fc-82ek-nzbi-ry28-8a55ncazovb0@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-04-23 | 21:45 ]
+trojan://1912uth0-mp3i-dgvd-baof-b1jxr4rc27im@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://onyq82g5-4358-6vci-mnhl-9zrusauahhac@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://307a283d-8f3c-4ef6-ab6a-6a57f064e7ba@s31629.asancall.cloud:8443?type=ws&security=none&path=/ws/apps/softgozar#DK 🇩🇰 ┇ VLESS-WS-NTLS ┇ 159.195.75.185
-ss://YWVzLTI1Ni1nY206UHZ2YXc0ODY4NjdEMnc0eWN0TDJVTFRR@193.29.107.179:40282#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 193.29.107.179
+vless://fd2a640b-efc5-478c-ad06-bba48de7e256@ss.mrrnasr.ir:443?type=xhttp&security=tls&path=/&sni=rxiptamiz.global.ssl.fastly.net&fp=firefox#DK 🇩🇰 ┇ VLESS-XHTTP-TLS - FASTLY ┇ 140.248.69.255
 vless://bfc78cd8-5951-4803-8d6c-4cedef8cd420@95.164.85.109:59374?type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc&sid=d21e7c#DK 🇩🇰 ┇ VLESS-TCP-RLT - Pq Hosting Plus S.r.l. ┇ 95.164.85.109
-trojan://1234567890@159.195.5.181:443?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.5.181
-ss://YWVzLTI1Ni1nY206REtYZld3YzRlYnNjcFhUS3BidDg1clNI@193.29.107.197:38742#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 193.29.107.197
+trojan://49197da7-4f74-4c34-8229-35561043c113@159.195.6.151:443?sni=www.google.com&peer=www.google.com&security=reality#DK 🇩🇰 ┇ TROJAN-TCP-REALITY ┇ 159.195.6.151
 ss://YWVzLTI1Ni1nY206VHV3Nnp6Wk02SndXTlp5WUY5Y2tDNEpa@193.29.107.211:43963#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 193.29.107.211
-vless://43488128-319e-f480-64ea-0acdc712e2a8@95.164.85.33:443?type=tcp&security=reality&sni=www.rakuten.co.jp&fp=chrome&flow=xtls-rprx-vision&pbk=-n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U&sid=41427aa565e28984#DK 🇩🇰 ┇ VLESS-TCP-RLT - Pq Hosting Plus S.r.l. ┇ 95.164.85.33
-vless://983da2df-bc52-4226-84c1-bbfef0704427@04cc4ef1beb1b536.freestly.sapienza-mahan.ir:443?type=xhttp&security=tls&sni=speedtest.net&fp=chrome#DK 🇩🇰 ┇ VLESS-XHTTP-TLS - FASTLY ┇ 140.248.69.255
-trojan://1234567890@159.195.39.241:2053?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.39.241
+vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?type=ws&security=none&path=/#DK 🇩🇰 ┇ VLESS-WS-NTLS - Webdock.io ApS ┇ 45.148.31.0
+vless://4649d681-7f26-4959-a3f2-02eb8866230f@159.195.82.187:9443?type=tcp&security=reality&path=/&sni=yahoo.com&fp=chrome&flow=xtls-rprx-vision&pbk=wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg&sid=2344766a270a6298#DK 🇩🇰 ┇ VLESS-TCP-RLT ┇ 159.195.82.187
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@192.36.27.94:989#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 192.36.27.94
+ss://YWVzLTI1Ni1nY206UHZ2YXc0ODY4NjdEMnc0eWN0TDJVTFRR@193.29.107.179:40282#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 193.29.107.179
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@192.36.27.116:989#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 192.36.27.116
-vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?type=tcp&security=none&path=/#DK 🇩🇰 ┇ VLESS-TCP-NTLS - Webdock.io ApS ┇ 45.148.31.0
+trojan://1234567890@159.195.44.151:443?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.44.151
+vless://43488128-319e-f480-64ea-0acdc712e2a8@95.164.85.33:443?type=tcp&security=reality&sni=www.rakuten.co.jp&fp=chrome&flow=xtls-rprx-vision&pbk=-n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U&sid=41427aa565e28984#DK 🇩🇰 ┇ VLESS-TCP-RLT - Pq Hosting Plus S.r.l. ┇ 95.164.85.33
+trojan://1234567890@159.195.5.181:443?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.5.181
+trojan://1234567890@159.195.39.241:2053?sni=kfm-bn0.pages.dev&peer=kfm-bn0.pages.dev&security=tls#DK 🇩🇰 ┇ TROJAN-TCP-TLS ┇ 159.195.39.241
+ss://YWVzLTI1Ni1nY206REtYZld3YzRlYnNjcFhUS3BidDg1clNI@193.29.107.197:38742#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 193.29.107.197
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@192.36.27.79:989#DK 🇩🇰 ┇ SHADOWSOCKS-TCP-NTLS - M247 Europe SRL ┇ 192.36.27.79
-trojan://cbdo6xam-5zjz-arxu-9ggp-nd8xxjs7tufx@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://36ksnjjr-bu64-trgm-bywq-uzjaxyb0vocc@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+trojan://e3244e30-saxy-pmqs-8kee-5ttbv1a3ruaz@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://rhex859w-ims5-frs6-4x5e-appzvbby4m1s@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
