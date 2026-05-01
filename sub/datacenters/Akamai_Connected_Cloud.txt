@@ -1,16 +1,16 @@
-trojan://2i7fzz9k-i15b-4i4w-27he-0sxmnv6cf29f@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-01 | 14:25 ]
-trojan://avm6tlb3-a4xy-d4ep-03p6-8skyifk1tbpc@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://zqwy7f6l-qkf9-3bt0-4nug-dgsw0p2rsjbe@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://d7f67e94-aa9e-4454-b1cf-ce522a0d2728@172.232.208.147:443?type=tcp&security=none#IT 🇮🇹 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.232.208.147
-vless://47cb67c7-00ec-49b5-cd2b-a3edbcfcae2c@172.233.57.233:54538?type=tcp&security=none#NL 🇳🇱 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.233.57.233
-vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?type=tcp&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87#US 🇺🇸 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.234.130.82
-vless://e4824193-4f54-453b-d037-88368e85ef0e@public18v7.fastipsport.com:8880?type=grpc&security=none#US 🇺🇸 ┇ VLESS-GRPC-NTLS - Akamai Connected Cloud ┇ 172.234.24.211
+trojan://nogtwvyj-hyzc-jh71-2qnd-ot5meif26t9c@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-01 | 15:32 ]
+trojan://8h3ap28i-no0i-a64q-lq8u-4bdecz694qri@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://5er5nm7b-xjiv-nbkk-bnvp-0tgbpbar5c06@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBBa2FtYWkgQ29ubmVjdGVkIENsb3VkIFx1MjUwNyAxNzIuMjM2LjI0OS4yNCIsImFkZCI6InVzYWFwcDEuamlzdXl1bi50b3AiLCJwb3J0IjoyMDUzLCJpZCI6IjRiODBhYTg2LTQzNTQtNDBiYi1kMmEzLTQ3MTI2Y2ZmMGJlYSIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6InVzYWFwcDEuamlzdXl1bi50b3AiLCJwYXRoIjoiL3VzYXZtIiwidGxzIjoidGxzIiwic25pIjoidXNhYXBwMS5qaXN1eXVuLnRvcCJ9
-vless://f1097fdb-e664-42b9-82a0-a5e38f7f43e0@172.105.29.241:8031?type=tcp&security=reality&sni=stackoverflow.com&fp=chrome&pbk=QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs&sid=0ae86db71378173b#CA 🇨🇦 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.105.29.241
-vless://3e7f67de-648e-4871-b51a-a225214d41ee@172.232.194.233:443?type=tcp&security=reality&sni=github.githubassets.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#IT 🇮🇹 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.232.194.233
+vless://d7f67e94-aa9e-4454-b1cf-ce522a0d2728@172.232.208.147:443?type=tcp&security=none#IT 🇮🇹 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.232.208.147
 vmess://eyJ2IjoiMiIsInBzIjoiVVMgXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFrYW1haSBDb25uZWN0ZWQgQ2xvdWQgXHUyNTA3IDE3Mi4yMzMuMjI5LjkxIiwiYWRkIjoiMTcyLjIzMy4yMjkuOTEiLCJwb3J0IjoxNDEwMiwiaWQiOiIyN2JhODdmYy01ODNmLTQ3NjMtOTA2MC04M2NmMGI5MjY0ZGIiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AifQ
-trojan://8r%3C%5B9%27l6hAO%238ZQi@172.233.97.34:443?sni=Koma-YT.PAGeS.Dev&peer=Koma-YT.PAGeS.Dev&security=tls#ES 🇪🇸 ┇ TROJAN-TCP-TLS - Akamai Connected Cloud ┇ 172.233.97.34
+vless://e4824193-4f54-453b-d037-88368e85ef0e@public18v7.fastipsport.com:8880?type=grpc&security=none#US 🇺🇸 ┇ VLESS-GRPC-NTLS - Akamai Connected Cloud ┇ 172.234.24.211
+vless://f1097fdb-e664-42b9-82a0-a5e38f7f43e0@172.105.29.241:8031?type=tcp&security=reality&sni=stackoverflow.com&fp=chrome&pbk=QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs&sid=0ae86db71378173b#CA 🇨🇦 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.105.29.241
+vless://47cb67c7-00ec-49b5-cd2b-a3edbcfcae2c@172.233.57.233:54538?type=tcp&security=none#NL 🇳🇱 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.233.57.233
 vless://turboo-server@fr.turboo-server.xyz:443?type=tcp&security=none#US 🇺🇸 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.237.146.25
-vless://ead1dc68-29da-50ef-9160-70c9c1d0f8e1@v-04.artemis-vpn-tl.org:80?type=tcp&security=none#US 🇺🇸 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.237.145.27
-trojan://8csvi56z-0q3t-1nh5-wav5-036fgl3muodi@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://pmhpwkwr-s4am-xkv7-kfiu-1q3hh825qede@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://ead1dc68-29da-50ef-9160-70c9c1d0f8e1@v-04.artemis-vpn-tl.org:80?type=tcp&security=none#US 🇺🇸 ┇ VLESS-TCP-NTLS - Akamai Connected Cloud ┇ 172.234.199.15
+vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?type=tcp&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87#US 🇺🇸 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.234.130.82
+trojan://8r%3C%5B9%27l6hAO%238ZQi@172.233.97.34:443?sni=Koma-YT.PAGeS.Dev&peer=Koma-YT.PAGeS.Dev&security=tls#ES 🇪🇸 ┇ TROJAN-TCP-TLS - Akamai Connected Cloud ┇ 172.233.97.34
+vless://3e7f67de-648e-4871-b51a-a225214d41ee@172.232.194.233:443?type=tcp&security=reality&sni=github.githubassets.com&fp=chrome&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw#IT 🇮🇹 ┇ VLESS-TCP-RLT - Akamai Connected Cloud ┇ 172.232.194.233
+trojan://x8r5dyjt-xlit-oc6g-zwul-vj00vqdsp4ec@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://uxvzd9iz-x0r0-b68j-o0eh-drcwiaef15v5@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
