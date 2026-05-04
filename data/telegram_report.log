@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-05-04 16:39:36
+Timestamp: 2026-05-04 19:02:00
 Total Channels: 92
-Successful Scrapes: 46
+Successful Scrapes: 48
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -15,35 +15,37 @@ azarbayjab1: 43 configs
 itenvpn: 42 configs
 masterserver1: 40 configs
 Greenvpn2: 32 configs
+anty_filter: 20 configs
 Farah_VPN: 20 configs
-anty_filter: 17 configs
+v2ray_configs_pool: 18 configs
 WarV2Ray: 17 configs
 lexernet: 16 configs
-v2ray_configs_pool: 15 configs
 v2ray_god: 14 configs
 expressvpn_420: 12 configs
+skivpn: 12 configs
 vistav2ray: 11 configs
-v2ra_config: 11 configs
-skivpn: 9 configs
+v2ra_config: 10 configs
 arv2ray: 7 configs
 evay_vpn: 7 configs
 mcv2rayng: 7 configs
 vmessorg: 7 configs
+configx2ray: 5 configs
+confingv2raayng: 5 configs
 vpnkanfik: 5 configs
+ConfigX2ray: 5 configs
 capoit: 4 configs
-configx2ray: 4 configs
 ghalagyann: 4 configs
 proxystore11: 4 configs
 spikevpn: 4 configs
 tehranargo: 4 configs
-ConfigX2ray: 4 configs
-confingv2raayng: 3 configs
 isvvpn: 3 configs
 v2rayfast_7: 2 configs
 v2ray_rolly: 2 configs
 v2raymelliii: 2 configs
 vpnod: 2 configs
 bored_vpn: 1 configs
+DALTON_PING: 1 configs
+dalton_ping: 1 configs
 fnet00: 1 configs
 freev2rng: 1 configs
 ineronix: 1 configs
