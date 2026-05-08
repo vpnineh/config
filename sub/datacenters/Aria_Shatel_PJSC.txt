@@ -1,15 +1,16 @@
-trojan://zbeegswl-ffu7-3apt-kw7o-0j8pf6vakmbs@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-08 | 08:10 ]
-trojan://1991psep-64ir-oxkq-4ntc-vdcsx8z4ul3d@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://cbifyxgm-1czd-20qb-wrbf-tg74poi6twfm@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+trojan://ygb0vkxf-n4m4-7st9-uh1w-64ttqujx320u@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-08 | 10:25 ]
+trojan://6gwa39i6-nb6o-jkla-pmbn-z9a8rd96gez7@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://xhfz606w-gnfu-sejr-65be-gee4ya70mti8@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://e1766cb1-29e0-4fe6-8188-e13416b1f19b@94.183.167.22:2027?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.167.22
-vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFyaWEgU2hhdGVsIFBKU0MgXHUyNTA3IDk0LjE4My4yNDEuMjMzIiwiYWRkIjoiOTQuMTgzLjI0MS4yMzMiLCJwb3J0Ijo0NDMsImlkIjoiYTc0OWYyNmMtNGQ4ZS00MDBjLWI3NjYtYzRiMmYxOWQ1OTVhIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
-vless://b9c5f438-a69a-4aad-ea2b-b98d0bc48cbd@94.183.241.26:33553?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.241.26
-vless://90826ad0-5ad0-4758-bc6f-72e029bb274d@tr.webira.net:36279?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.173.67
-vless://35657e7a-f81b-4c61-90aa-9bc142531462@94.183.153.249:53839?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.153.249
-vless://7d6a547b-e48c-4789-a1fb-e86c533c0b84@94.183.158.17:443?type=tcp&security=tls&sni=speedtest.net&fp=chrome#IR 🇮🇷 ┇ VLESS-TCP-TLS - Aria Shatel PJSC ┇ 94.183.158.17
-vless://477e97ac-2d6f-47f7-83d6-aabeb11fd8ef@yakhbandan.info:443?type=ws&security=none&path=/msg.php#IR 🇮🇷 ┇ VLESS-WS-NTLS - Aria Shatel PJSC ┇ 94.183.241.5
-vless://31bdae38-ab95-499a-8105-2fe7c45a8240@hub1.wiziii.xyz:8085?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.182.83.83
 vless://aef92bdf-79b6-4962-b3ff-164dd938d2dd@94.183.149.98:6000?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.149.98
+vless://7d6a547b-e48c-4789-a1fb-e86c533c0b84@94.183.158.17:443?type=tcp&security=tls&sni=speedtest.net&fp=chrome#IR 🇮🇷 ┇ VLESS-TCP-TLS - Aria Shatel PJSC ┇ 94.183.158.17
+vless://31bdae38-ab95-499a-8105-2fe7c45a8240@hub1.wiziii.xyz:8085?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.182.83.83
+vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFyaWEgU2hhdGVsIFBKU0MgXHUyNTA3IDk0LjE4My4yNDEuMjMzIiwiYWRkIjoiOTQuMTgzLjI0MS4yMzMiLCJwb3J0Ijo0NDMsImlkIjoiYTc0OWYyNmMtNGQ4ZS00MDBjLWI3NjYtYzRiMmYxOWQ1OTVhIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
+vless://90826ad0-5ad0-4758-bc6f-72e029bb274d@tr.webira.net:36279?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.173.67
+vless://b9c5f438-a69a-4aad-ea2b-b98d0bc48cbd@94.183.241.26:33553?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.241.26
+vless://35657e7a-f81b-4c61-90aa-9bc142531462@94.183.153.249:53839?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.153.249
 vless://bcb7fff4-3426-49a5-bee7-34222fb71ca8@aparatrat1.info:2083?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.236.39
-trojan://5y520vos-o2x1-ay18-3z5y-pgwxftnf7nua@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://ekbozxso-8kwm-o9gt-tj9g-s9nygvl8oytc@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@srvfree.iranai.space:41314?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Aria Shatel PJSC ┇ 94.183.171.3
+vless://477e97ac-2d6f-47f7-83d6-aabeb11fd8ef@yakhbandan.info:443?type=ws&security=none&path=/msg.php#IR 🇮🇷 ┇ VLESS-WS-NTLS - Aria Shatel PJSC ┇ 94.183.241.50
+trojan://kfnnw8f7-p350-zjcb-2tcc-2uj5bx0zlxfm@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://g6ee8ca0-3234-cs2c-7m1w-tpg6o1uzalci@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
