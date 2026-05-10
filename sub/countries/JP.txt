@@ -1,22 +1,26 @@
-trojan://dvuhgj4e-fzk5-wz1l-s55s-lb51gi3jer3r@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-10 | 10:58 ]
-trojan://iqlwkfqx-zk4h-wbig-3d9k-psywq3bgghlu@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://ke1sws71-la5i-4bdz-rxjq-q6xw2jz8u0p7@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@64.176.44.23:443?type=ws&security=tls&path=/proxyip=ProxyIP.DE.owg.dpdns.org&sni=3-2ll.pages.dev&fp=chrome#JP 🇯🇵 ┇ VLESS-WS-TLS - AS-VULTR ┇ 64.176.44.23
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@103.13.19.227:443?type=ws&security=tls&path=/fp=chrome&sni=1-aym.pages.dev#JP 🇯🇵 ┇ VLESS-WS-TLS - BUNNY-COMMUNICATIONS-GLOBAL ┇ 103.13.19.227
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 149.22.87.204
+trojan://8s7yf70g-s39v-g6uh-2wcl-52ujjztzb3ue@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-05-10 | 12:45 ]
+trojan://yr5lzz5e-b2bz-hra6-yd8x-80rnue0fd65f@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://26giwh9y-nh1m-dy8s-ciji-ruae6u0hqpl1@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 149.22.87.240
-vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?type=tcp&security=none#JP 🇯🇵 ┇ VLESS-TCP-NTLS - Alibaba US Technology Co., Ltd. ┇ 8.216.21.135
-vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?type=tcp&security=reality&sni=jp.cdn.stun.su&fp=chrome&flow=xtls-rprx-vision&pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&sid=f189d91760bb6663#JP 🇯🇵 ┇ VLESS-TCP-RLT - M247 Europe SRL ┇ 176.97.70.244
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 149.22.87.241
-trojan://7ebc402f3383366fe4f554abd8625439@54.92.68.201:2511?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 54.92.68.201
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@126.220.82.161:443?type=ws&security=tls&path=/&sni=gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev&fp=chrome#JP 🇯🇵 ┇ VLESS-WS-TLS - SoftBank Corp. ┇ 126.220.82.161
 vmess://eyJ2IjoiMiIsInBzIjoiSlAgXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1IFx1MjUwNyBWTUVTUy1XUy1OVExTIC0gT1JBQ0xFLUJNQy0zMTg5OCBcdTI1MDcgMTY4LjEzOC40My43NSIsImFkZCI6ImpwMDEuYTBhLnh5eiIsInBvcnQiOjgwLCJpZCI6IjExYzM2MjdmLTMxZTgtNDY5NS1kZmJkLTM0MDc2ZTJmMWY1ZCIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiL2NjdHYxMy5tM3U4In0
+trojan://BxceQaOe@35.78.121.124:42750?sni=t.me%2Fripaojiedian&peer=t.me%2Fripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 35.78.121.124
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@35.77.252.187:443?type=ws&security=tls&path=/flow=-udp443&sni=gogo4.kmj.qzz.io&fp=chrome#JP 🇯🇵 ┇ VLESS-WS-TLS - AMAZON-02 ┇ 35.77.252.187
-ss://YWVzLTI1Ni1nY206OTkzOTRjZmViZTZjMDkwNg@185.141.219.21:30312#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - ASNET ┇ 185.141.219.21
-trojan://BxceQaOe@13.158.22.253:3685?sni=t.me/ripaojiedian&peer=t.me/ripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 13.158.22.253
-vless://ebd8539d-e249-4a39-8f90-e8585e8cc35e@116.80.44.144:27724?type=tcp&security=reality&sni=www.yahoo.co.jp&fp=chrome&flow=xtls-rprx-vision&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w#JP 🇯🇵 ┇ VLESS-TCP-RLT - NTT PC Communications, Inc. ┇ 116.80.44.144
-vless://e0306a33-9971-4b75-a5e0-a176a5a48a2e@15.168.173.144:443?type=tcp&security=reality#JP 🇯🇵 ┇ VLESS-TCP-RLT - AMAZON-02 ┇ 15.168.173.144
-trojan://BxceQaOe@54.178.153.235:6463?sni=t.me%2Fripaojiedian&peer=t.me%2Fripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 54.178.153.235
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@202.144.192.37:443?type=ws&security=tls&path=/fp=chrome&sni=ewgruiehoe.pages.dev#JP 🇯🇵 ┇ VLESS-WS-TLS - IPTELECOM Global ┇ 202.144.192.37
-trojan://co0gklsn-1vox-mnzr-5zps-jhe2ga3akv8f@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://ksjvgyxh-iaf5-ex30-n477-n0p08j1c0555@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@126.220.82.161:443?type=ws&security=tls&path=/&sni=gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev&fp=chrome#JP 🇯🇵 ┇ VLESS-WS-TLS - SoftBank Corp. ┇ 126.220.82.161
+trojan://BxceQaOe@13.112.154.17:44386?sni=t.me/ripaojiedian&peer=t.me/ripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 13.112.154.17
+trojan://7ebc402f3383366fe4f554abd8625439@54.92.68.201:2511?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 54.92.68.201
+trojan://7ebc402f3383366fe4f554abd8625439@43.206.223.143:1180?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 43.206.223.143
+vless://ebd8539d-e249-4a39-8f90-e8585e8cc35e@116.80.44.144:27724?type=tcp&security=reality&sni=www.yahoo.co.jp&fp=chrome&flow=xtls-rprx-vision&pbk=rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w#JP 🇯🇵 ┇ VLESS-TCP-RLT - NTT PC Communications, Inc. ┇ 116.80.44.144
+trojan://BxceQaOe@54.178.153.235:50606?sni=t.me/ripaojiedian&peer=t.me/ripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 54.178.153.235
+trojan://BxceQaOe@54.64.30.114:4099?sni=t.me%2Fripaojiedian&peer=t.me%2Fripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 54.64.30.114
+vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@64.176.44.23:443?type=ws&security=tls&path=/proxyip=ProxyIP.DE.owg.dpdns.org&sni=3-2ll.pages.dev&fp=chrome#JP 🇯🇵 ┇ VLESS-WS-TLS - AS-VULTR ┇ 64.176.44.23
+vless://e0306a33-9971-4b75-a5e0-a176a5a48a2e@15.168.173.144:443?type=tcp&security=reality#JP 🇯🇵 ┇ VLESS-TCP-RLT - AMAZON-02 ┇ 15.168.173.144
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 149.22.87.204
+vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@8.216.21.135:10026?type=tcp&security=none#JP 🇯🇵 ┇ VLESS-TCP-NTLS - Alibaba US Technology Co., Ltd. ┇ 8.216.21.135
+ss://YWVzLTI1Ni1nY206OTkzOTRjZmViZTZjMDkwNg@185.141.219.21:30312#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - ASNET ┇ 185.141.219.21
+vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?type=tcp&security=reality&sni=jp.cdn.stun.su&fp=chrome&flow=xtls-rprx-vision&pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&sid=f189d91760bb6663#JP 🇯🇵 ┇ VLESS-TCP-RLT - M247 Europe SRL ┇ 176.97.71.171
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443#JP 🇯🇵 ┇ SHADOWSOCKS-TCP-NTLS - Datacamp Limited ┇ 149.22.87.241
+trojan://BxceQaOe@13.158.22.253:3685?sni=t.me/ripaojiedian&peer=t.me/ripaojiedian&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 13.158.22.253
+trojan://7ebc402f3383366fe4f554abd8625439@13.113.153.204:667?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#JP 🇯🇵 ┇ TROJAN-TCP-TLS - AMAZON-02 ┇ 13.113.153.204
+trojan://cgeeto5q-qu6i-jw6z-kap7-g6f95xlq07a4@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://2p1mejj9-hrhn-ph0e-oa3y-j8zhunoac3ge@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
