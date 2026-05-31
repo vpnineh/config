@@ -1,5 +1,7 @@
 [
     "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
     "https://github.com/Surfboardv2ray/Proxy-sorter/raw/refs/heads/main/output/converted.txt",
-    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/vless"
+    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/vless",
+    "https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
+    "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
 ]
