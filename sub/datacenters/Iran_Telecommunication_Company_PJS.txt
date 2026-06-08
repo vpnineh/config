@@ -1,14 +1,16 @@
-trojan://1pks1khy-3zxx-6lfd-cud1-4zo9u4x0xw1z@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-06-08 | 10:39 ]
-trojan://r7jplghb-cba7-4y1q-y4j9-cdj7c5ace1as@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://3d4oed9h-eqct-bvh3-xudv-457igdahz1do@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+trojan://hxhxp12a-s0av-f0la-x3s4-x2xwtk0sereq@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-06-08 | 15:43 ]
+trojan://wz4tntuk-egwt-79zx-ce0o-wfzvydbyhcyh@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://co691jmd-xvbm-5zgv-eh7w-2vxtrki1552r@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+vless://96542854-eb4c-4c1c-83b6-f35735a3c80b@w07star.meepo1.com:8443?type=tcp&security=tls&sni=w07star.meepo1.com&fp=chrome#IR 🇮🇷 ┇ VLESS-TCP-TLS - Iran Telecommunication Company PJS ┇ 185.79.157.33
+trojan://ecd5e68e-92a5-4f85-afe1-1775ec84bf54@5.239.245.250:443?sni=empty.node&peer=empty.node&security=tls#IR 🇮🇷 ┇ TROJAN-TCP-TLS - Iran Telecommunication Company PJS ┇ 5.239.245.250
+vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIElyYW4gVGVsZWNvbW11bmljYXRpb24gQ29tcGFueSBQSlMgXHUyNTA3IDIxNy4yMTkuMjEyLjgiLCJhZGQiOiIyMTcuMjE5LjIxMi44IiwicG9ydCI6NDIwLCJpZCI6Ijk1YzBkZDE3LWVhYTQtNDc2ZS04ZWNkLTgzYTI2Y2RlN2FhNyIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJodHRwIiwicGF0aCI6Ii8ifQ
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@151.233.56.12:40443?type=ws&security=tls&path=/&sni=sni.111000.indevs.in#IR 🇮🇷 ┇ VLESS-WS-TLS - Iran Telecommunication Company PJS ┇ 151.233.56.12
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@2.185.18.146:40443?type=ws&security=tls&path=/&sni=sni.111000.indevs.in#IR 🇮🇷 ┇ VLESS-WS-TLS - Iran Telecommunication Company PJS ┇ 2.185.18.146
+vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 84.47.233.110
 vless://84e7d7ea-fbb8-4a62-b3c6-a22165a21bee@185.133.125.4:19151?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 185.133.125.4
 vless://a0f4bd6a-a684-4f6d-8648-3bd7c4470e81@185.79.159.161:446?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 185.79.159.161
-vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIElyYW4gVGVsZWNvbW11bmljYXRpb24gQ29tcGFueSBQSlMgXHUyNTA3IDIxNy4yMTkuMjEyLjgiLCJhZGQiOiIyMTcuMjE5LjIxMi44IiwicG9ydCI6NDIwLCJpZCI6Ijk1YzBkZDE3LWVhYTQtNDc2ZS04ZWNkLTgzYTI2Y2RlN2FhNyIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJodHRwIiwicGF0aCI6Ii8ifQ
-vless://4219373a-412d-4347-80b3-85e7b5a38728@89.235.118.236:2053?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 89.235.118.236
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@151.233.56.12:40443?type=ws&security=tls&path=/&sni=sni.111000.indevs.in#IR 🇮🇷 ┇ VLESS-WS-TLS - Iran Telecommunication Company PJS ┇ 151.233.56.12
+vless://916ad802-80bf-4369-9f79-27babbeb091b@84.47.232.14:2052?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 84.47.232.14
 vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIElyYW4gVGVsZWNvbW11bmljYXRpb24gQ29tcGFueSBQSlMgXHUyNTA3IDIxNy4yMTguNTIuMSIsImFkZCI6IjIxNy4yMTguNTIuMSIsInBvcnQiOjEwNDEwLCJpZCI6ImY5M2YxMzRmLTdhZGItNDhjMy1iY2QxLTI1MzJlZGIwYjQ3OCIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIn0
-trojan://ecd5e68e-92a5-4f85-afe1-1775ec84bf54@5.239.245.250:443?sni=empty.node&peer=empty.node&security=tls#IR 🇮🇷 ┇ TROJAN-TCP-TLS - Iran Telecommunication Company PJS ┇ 5.239.245.250
 vless://16dbc072-3707-4a58-b1d9-955750fd2baf@185.133.125.140:12941?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Iran Telecommunication Company PJS ┇ 185.133.125.140
-vless://96542854-eb4c-4c1c-83b6-f35735a3c80b@w07star.meepo1.com:8443?type=tcp&security=tls&sni=w07star.meepo1.com&fp=chrome#IR 🇮🇷 ┇ VLESS-TCP-TLS - Iran Telecommunication Company PJS ┇ 185.79.157.33
-trojan://nos6dr4v-9nf1-xp1e-xbni-pkmvy3ow6b6s@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://723bkpjv-k9fb-tsku-ws9m-t5ighy2g4q5g@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+trojan://8qnz1dfj-dakk-i9xe-krs7-7mi9p09pewmx@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://ye7h03fk-vi5f-3y8o-ikz2-8k1p5qo5h3d8@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
