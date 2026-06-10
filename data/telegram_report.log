@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-06-10 18:00:58
+Timestamp: 2026-06-10 21:41:40
 Total Channels: 92
-Successful Scrapes: 42
+Successful Scrapes: 43
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -10,28 +10,28 @@ sockss_http: 70 configs
 config_dooni: 70 configs
 GalaxyMVPN: 70 configs
 azarbayjab1: 43 configs
-bored_vpn: 40 configs
-configx2ray: 26 configs
-ConfigX2ray: 26 configs
-masterserver1: 23 configs
+bored_vpn: 41 configs
+configx2ray: 36 configs
+ConfigX2ray: 36 configs
+masterserver1: 25 configs
+v2ngfast: 23 configs
 vistav2ray: 23 configs
-v2ngfast: 21 configs
+anty_filter: 20 configs
 Farah_VPN: 20 configs
-vpnkanfik: 19 configs
+v2ray_configs_pool: 20 configs
 WarV2Ray: 17 configs
-v2ray_configs_pool: 16 configs
+vpnkanfik: 16 configs
 tehranargo: 15 configs
+confingv2raayng: 14 configs
 v2ray_god: 14 configs
-confingv2raayng: 13 configs
-SafeNet_Server: 13 configs
-anty_filter: 12 configs
+SafeNet_Server: 14 configs
+v2ra_config: 13 configs
 expressvpn_420: 12 configs
 summertimeus: 12 configs
-v2ra_config: 12 configs
 capoit: 10 configs
 mcv2rayng: 10 configs
-vpnod: 8 configs
-Tweety_Proxy: 8 configs
+vpnod: 10 configs
+Tweety_Proxy: 9 configs
 antimeli: 7 configs
 arv2ray: 7 configs
 DALTON_PING: 7 configs
@@ -47,5 +47,6 @@ shadowproxy66: 2 configs
 v2rayng_1378: 2 configs
 ShadowProxy66: 2 configs
 blueshekan: 1 configs
+lexernet: 1 configs
 
 --- Failed Channels ---
