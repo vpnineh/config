@@ -1,5 +1,5 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-07-05 02:44:10
+Timestamp: 2026-07-05 03:46:26
 Total Channels: 92
 Successful Scrapes: 44
 Failed Scrapes: 0
@@ -35,9 +35,9 @@ configx2ray: 11 configs
 shadowproxy66: 11 configs
 ShadowProxy66: 11 configs
 ConfigX2ray: 11 configs
+DALTON_PING: 10 configs
+dalton_ping: 10 configs
 v2rayyngvpn: 9 configs
-DALTON_PING: 7 configs
-dalton_ping: 7 configs
 evay_vpn: 7 configs
 arv2ray: 6 configs
 proxystore11: 6 configs
