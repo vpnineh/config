@@ -1,5 +1,5 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-07-11 01:47:02
+Timestamp: 2026-07-11 03:40:23
 Total Channels: 92
 Successful Scrapes: 41
 Failed Scrapes: 0
@@ -22,7 +22,6 @@ capoit: 28 configs
 masterserver1: 24 configs
 v2ngfast: 22 configs
 SafeNet_Server: 19 configs
-anty_filter: 18 configs
 WarV2Ray: 17 configs
 shadowproxy66: 15 configs
 ShadowProxy66: 15 configs
@@ -30,6 +29,7 @@ v2ray_god: 14 configs
 tehranargo: 13 configs
 v2ra_config: 13 configs
 vpnod: 13 configs
+anty_filter: 12 configs
 mcv2rayng: 11 configs
 v2raymelliii: 10 configs
 isvvpn: 9 configs
