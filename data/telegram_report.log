@@ -1,7 +1,7 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-07-18 02:39:01
+Timestamp: 2026-07-18 03:40:23
 Total Channels: 92
-Successful Scrapes: 37
+Successful Scrapes: 38
 Failed Scrapes: 0
 
 --- Channels with Found Configs ---
@@ -35,6 +35,7 @@ evay_vpn: 7 configs
 arv2ray: 5 configs
 v2ray_configs_pool: 5 configs
 nufilter: 4 configs
+skivpn: 3 configs
 spikevpn: 3 configs
 vpnkanfik: 3 configs
 DALTON_PING: 2 configs
