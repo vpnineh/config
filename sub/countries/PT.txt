@@ -1,19 +1,20 @@
-trojan://55a6cdnh-iy9p-zmek-4bx4-u7gsxmmyz4fe@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-07-20 | 14:49 ]
-trojan://dv3rgz19-chta-eyok-rcpj-arom0z1qxvll@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://rz6kdojl-ifxe-gsxy-ls3t-1whomhqaxw0g@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://3b940e86-7b0d-40da-acf1-12d334e41023@146.75.88.11:80?type=ws&security=none&path=/#PT 🇵🇹 ┇ VLESS-WS-NTLS - FASTLY ┇ 146.75.88.11
-vless://0e25dbbf-9700-4c0c-9829-6afd28aa1e2d@sync2.hexogate.net:80?type=tcp&security=none&path=/#PT 🇵🇹 ┇ VLESS-TCP-NTLS - Tfm Networks Limited ┇ 85.234.86.213
-vmess://eyJ2IjoiMiIsInBzIjoiUFQgXHVkODNjXHVkZGY1XHVkODNjXHVkZGY5IFx1MjUwNyBWTUVTUy1XUy1OVExTIC0gUHEgSG9zdGluZyBQbHVzIFMuci5sLiBcdTI1MDcgOTQuMTMxLjEwLjUiLCJhZGQiOiJzdy05NC4xMzEuMTAuNS5uaXAuaW8iLCJwb3J0Ijo0NDMsImlkIjoiODhkNDc2YzEtNDhmNy00ZDNkLWEwZTYtYWNjY2JmZjAyZGI2IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiYXV0byIsInBhdGgiOiIvIn0
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtYXN0cm92cG5fcHQ@pt-1.stunnel.cc:8444#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - ASNET ┇ 195.133.92.56
-vless://2f4ccd8c-241a-4900-9e1e-3c8a51826096@64.188.64.215:443?type=tcp&security=reality&sni=google.com&flow=xtls-rprx-vision&pbk=8YhxIt59OyCh3hGT8mbByjMi040LIsSbLXGCstIqeXU&sid=aca2849be8b47f1b#PT 🇵🇹 ┇ VLESS-TCP-RLT - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.64.215
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - Pq Hosting Plus S.r.l. ┇ 45.83.142.237
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHVElaWEdvZTB3a3Q@31.129.22.32:443#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - Global Connectivity Solutions Llp ┇ 31.129.22.32
+trojan://4lmi1ret-vf31-79yi-sqw8-j8haqcinntgm@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-07-20 | 16:55 ]
+trojan://s3nhoe4f-36r9-6ifd-5o05-5tcyo3i04ea6@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://d160y2fo-9zbv-6ygq-a32o-l70gadwh54i6@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.113.143.186:990#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - Web Solutions, Lda ┇ 185.113.143.186
-trojan://11559103-9993-4d00-b599-d6bcd8db2197@free-v7-09.elbrusway.online:443?sni=free-v7-09.elbrusway.online&peer=free-v7-09.elbrusway.online&security=tls#PT 🇵🇹 ┇ TROJAN-TCP-TLS - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.66.196
-trojan://8r%3C%5B9%27l6hAO%238ZQi@64.188.66.138:2053?sni=Koma-YT.PAGeS.Dev&peer=Koma-YT.PAGeS.Dev&security=tls#PT 🇵🇹 ┇ TROJAN-TCP-TLS - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.66.138
+vmess://eyJ2IjoiMiIsInBzIjoiUFQgXHVkODNjXHVkZGY1XHVkODNjXHVkZGY5IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIFBxIEhvc3RpbmcgUGx1cyBTLnIubC4gXHUyNTA3IDUuMTgyLjM5LjQ0IiwiYWRkIjoiNS4xODIuMzkuNDQiLCJwb3J0Ijo0NDQsImlkIjoiN2Q1MmE0MDktYWE1YS00NzFmLWFjYTUtZTc2MjFiZjFiODEzIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
+vmess://eyJ2IjoiMiIsInBzIjoiUFQgXHVkODNjXHVkZGY1XHVkODNjXHVkZGY5IFx1MjUwNyBWTUVTUy1XUy1OVExTIC0gUHEgSG9zdGluZyBQbHVzIFMuci5sLiBcdTI1MDcgOTQuMTMxLjEwLjUiLCJhZGQiOiJzdy05NC4xMzEuMTAuNS5uaXAuaW8iLCJwb3J0Ijo0NDMsImlkIjoiODhkNDc2YzEtNDhmNy00ZDNkLWEwZTYtYWNjY2JmZjAyZGI2IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiYXV0byIsInBhdGgiOiIvIn0
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@64.188.64.234:443?type=xhttp&security=tls&path=/statue&sni=statue.lnmarketplace.net&fp=firefox#PT 🇵🇹 ┇ VLESS-XHTTP-TLS - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.64.234
+vless://3b940e86-7b0d-40da-acf1-12d334e41023@146.75.88.11:80?type=ws&security=none&path=/#PT 🇵🇹 ┇ VLESS-WS-NTLS - FASTLY ┇ 146.75.88.11
+trojan://11559103-9993-4d00-b599-d6bcd8db2197@free-v7-09.elbrusway.online:443?sni=free-v7-09.elbrusway.online&peer=free-v7-09.elbrusway.online&security=tls#PT 🇵🇹 ┇ TROJAN-TCP-TLS - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.66.196
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - BrainStorm Network, Inc ┇ 185.231.233.112
-ss://YWVzLTI1Ni1nY206c3V1Y1NlVkxtdDZQUUtBUDc3TnRHdzl4@91.250.240.148:49339#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - HostRoyale Technologies Pvt Ltd ┇ 91.250.240.148
+vless://0e25dbbf-9700-4c0c-9829-6afd28aa1e2d@sync2.hexogate.net:80?type=tcp&security=none&path=/#PT 🇵🇹 ┇ VLESS-TCP-NTLS - Tfm Networks Limited ┇ 85.234.86.213
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.231.233.173:990#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - BrainStorm Network, Inc ┇ 185.231.233.173
-trojan://xnruhoax-9xrj-nurv-5209-u8813bxzbf5c@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://lwny1966-i7x3-dm0y-1fp0-8t5xj62kjd2z@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+ss://YWVzLTI1Ni1nY206c3V1Y1NlVkxtdDZQUUtBUDc3TnRHdzl4@91.250.240.148:49339#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - HostRoyale Technologies Pvt Ltd ┇ 91.250.240.148
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtYXN0cm92cG5fcHQ@pt-1.stunnel.cc:8444#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - ASNET ┇ 195.133.92.56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHVElaWEdvZTB3a3Q@31.129.22.32:443#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - Global Connectivity Solutions Llp ┇ 31.129.22.32
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpueGdzbUhrUDNKVTdoYlFrSmZ4Z3BYaDV0bHZYZTFlbg@45.83.142.237:443#PT 🇵🇹 ┇ SHADOWSOCKS-TCP-NTLS - Pq Hosting Plus S.r.l. ┇ 45.83.142.237
+vless://2f4ccd8c-241a-4900-9e1e-3c8a51826096@64.188.64.215:443?type=tcp&security=reality&sni=google.com&flow=xtls-rprx-vision&pbk=8YhxIt59OyCh3hGT8mbByjMi040LIsSbLXGCstIqeXU&sid=aca2849be8b47f1b#PT 🇵🇹 ┇ VLESS-TCP-RLT - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.64.215
+trojan://8r%3C%5B9%27l6hAO%238ZQi@64.188.66.138:2053?sni=Koma-YT.PAGeS.Dev&peer=Koma-YT.PAGeS.Dev&security=tls#PT 🇵🇹 ┇ TROJAN-TCP-TLS - Almouroltec Servicos De Informatica E Internet Lda ┇ 64.188.66.138
+trojan://3s3x689k-axy1-2b38-9pnm-2gc6vh6k6j0l@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://coe6gh2l-0zqp-vbxt-z9m2-lmxug1b49so2@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
