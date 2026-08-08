@@ -1,5 +1,5 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-08-08 09:27:37
+Timestamp: 2026-08-08 10:45:35
 Total Channels: 92
 Successful Scrapes: 43
 Failed Scrapes: 0
@@ -8,11 +8,11 @@ Failed Scrapes: 0
 bored_vpn: 70 configs
 Farah_VPN: 70 configs
 freakconfig: 70 configs
-mdvpnsec: 70 configs
 sockss_http: 70 configs
 v2rayng_1378: 70 configs
 config_dooni: 70 configs
 GalaxyMVPN: 70 configs
+mdvpnsec: 66 configs
 confingv2raayng: 63 configs
 isvvpn: 50 configs
 azarbayjab1: 43 configs
@@ -25,7 +25,7 @@ masterserver1: 21 configs
 SafeNet_Server: 18 configs
 v2ngfast: 17 configs
 WarV2Ray: 17 configs
-v2raymelliii: 15 configs
+v2raymelliii: 16 configs
 v2ray_god: 14 configs
 v2rayyngvpn: 14 configs
 configx2ray: 13 configs
