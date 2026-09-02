@@ -1,5 +1,5 @@
 --- Telegram Scrape Report ---
-Timestamp: 2026-09-02 08:13:12
+Timestamp: 2026-09-02 13:08:22
 Total Channels: 92
 Successful Scrapes: 39
 Failed Scrapes: 0
@@ -13,7 +13,7 @@ sockss_http: 70 configs
 config_dooni: 70 configs
 GalaxyMVPN: 70 configs
 isvvpn: 59 configs
-confingv2raayng: 53 configs
+confingv2raayng: 49 configs
 WedBaZtel: 49 configs
 vistav2ray: 48 configs
 v2rayng_1378: 45 configs
@@ -34,9 +34,9 @@ vpnod: 13 configs
 DALTON_PING: 11 configs
 dalton_ping: 11 configs
 mcv2rayng: 11 configs
+v2rayyngvpn: 11 configs
 v2ra_config: 11 configs
 sinavm: 10 configs
-v2rayyngvpn: 10 configs
 tehranargo: 7 configs
 skivpn: 6 configs
 arv2ray: 3 configs
