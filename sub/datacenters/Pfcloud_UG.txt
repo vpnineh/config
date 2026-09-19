@@ -1,18 +1,18 @@
-trojan://2qfcgyvj-37wz-8j4s-lj8y-pge1nmvtuvvo@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-09-19 | 18:01 ]
-trojan://rpi6jnu6-j0f9-0b90-uod2-dkzte9j5atea@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://twwda54h-blu1-wu6n-s0k6-dv8h2w0tstow@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vmess://eyJ2IjoiMiIsInBzIjoiTkwgXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIFx1MjUwNyBWTUVTUy1UQ1AtVExTIC0gUGZjbG91ZCBVRyBcdTI1MDcgMTc2LjY1LjE1MS42MSIsImFkZCI6Ik5sLmxpb24tbGlvbi5pciIsInBvcnQiOjgyNDMsImlkIjoiOWYwZDJlYjEtMWI5Ny00YjZhLThmNDktYTUyMTg2NTA4MTcxIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiTmwubGlvbi1saW9uLmlyIiwidGxzIjoidGxzIiwic25pIjoiTmwubGlvbi1saW9uLmlyIn0
-vless://34b0cfae-3a54-4b49-a3ce-59e783feb98e@176.65.151.67:48177?type=grpc&security=none#NL 🇳🇱 ┇ VLESS-GRPC-NTLS - Pfcloud UG ┇ 176.65.151.67
-vless://@vpn_kurdnet@45.135.194.196:56283?type=ws&security=none&path=/netpath#NL 🇳🇱 ┇ VLESS-WS-NTLS - Pfcloud UG ┇ 45.135.194.196
+trojan://hr69uban-r1ot-ubm9-b4ok-lj53cb5z6uwy@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-09-19 | 21:37 ]
+trojan://9955uswf-y6jb-o5tr-rw7m-pwn9fxpp17t8@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://q9cl9kzm-pcmg-ecqm-mggf-fp6gpiwepqtv@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://44dbe2d3-a6b1-42e5-8b5d-f1419e3ccbe6@176.65.151.231:443?type=xhttp&security=tls&path=/&fp=chrome#NL 🇳🇱 ┇ VLESS-XHTTP-TLS - Pfcloud UG ┇ 176.65.151.231
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYeW9kRnR5cFIweENGSHlXVzlneHFwMTVvVTc4bmppWA@45.135.194.220:14044#NL 🇳🇱 ┇ SHADOWSOCKS-TCP-NTLS - Pfcloud UG ┇ 45.135.194.220
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMalBfOHpVMmFUanZKdGtDeDk0QWFmY0dRVzZPc21iTw@176.65.151.237:49332#NL 🇳🇱 ┇ SHADOWSOCKS-TCP-NTLS - Pfcloud UG ┇ 176.65.151.237
 vless://fa87edcc-4751-4d28-b53b-3abf7bee7ece@lp.mtcmicserver.ir:8080?type=grpc&security=reality&sni=play-apps-features.googleusercontent.com&fp=edge&pbk=wegUSBXt8tLaCp7Ze22cuKJa-MQ0KRSe7BX1dDgLRQg&sid=b397faa58de7c5f3#NL 🇳🇱 ┇ VLESS-GRPC-RLT - Pfcloud UG ┇ 176.65.151.101
-vmess://eyJ2IjoiMiIsInBzIjoiTkwgXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIFBmY2xvdWQgVUcgXHUyNTA3IDE3Ni42NS4xNTEuODkiLCJhZGQiOiIxNzYuNjUuMTUxLjg5IiwicG9ydCI6MzAwMDAsImlkIjoiMGMzMWRlNTAtYWMxNC00M2JkLTg5MDctNTdkZmFkZjI0MjAxIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGUExRYTN0WE9NeE5LQzRfUTNEeTVaRkRSb3dlVWJpOA@176.65.151.212:36937#NL 🇳🇱 ┇ SHADOWSOCKS-TCP-NTLS - Pfcloud UG ┇ 176.65.151.212
-vless://bc0657a8-9d4a-4d5d-91ef-0c7b306bc685@176.65.151.240:57828?type=tcp&security=reality&sni=Miro.com&fp=chrome&flow=xtls-rprx-vision&pbk=1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo&sid=7a0300af51a1c4cf#NL 🇳🇱 ┇ VLESS-TCP-RLT - Pfcloud UG ┇ 176.65.151.240
+vless://@vpn_kurdnet@45.135.194.196:56283?type=ws&security=none&path=/netpath#NL 🇳🇱 ┇ VLESS-WS-NTLS - Pfcloud UG ┇ 45.135.194.196
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYeW9kRnR5cFIweENGSHlXVzlneHFwMTVvVTc4bmppWA@45.135.194.220:14044#NL 🇳🇱 ┇ SHADOWSOCKS-TCP-NTLS - Pfcloud UG ┇ 45.135.194.220
 vless://0271655d-e862-4329-b303-076e96c4ede1@sut.sesssutacc.ir:8443?type=xhttp&security=reality&path=/index.php&sni=www.samsung.com&fp=chrome&pbk=ezGpPvn1Rvoid-QVp70I7lTc5B3tx7jYXc6_JoVeQWk&sid=297daa14f06e95#NL 🇳🇱 ┇ VLESS-XHTTP-RLT - Pfcloud UG ┇ 176.65.151.241
+vless://bc0657a8-9d4a-4d5d-91ef-0c7b306bc685@176.65.151.240:57828?type=tcp&security=reality&sni=Miro.com&fp=chrome&flow=xtls-rprx-vision&pbk=1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo&sid=7a0300af51a1c4cf#NL 🇳🇱 ┇ VLESS-TCP-RLT - Pfcloud UG ┇ 176.65.151.240
+vmess://eyJ2IjoiMiIsInBzIjoiTkwgXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIFBmY2xvdWQgVUcgXHUyNTA3IDE3Ni42NS4xNTEuODkiLCJhZGQiOiIxNzYuNjUuMTUxLjg5IiwicG9ydCI6MzAwMDAsImlkIjoiMGMzMWRlNTAtYWMxNC00M2JkLTg5MDctNTdkZmFkZjI0MjAxIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
 vless://23d15721-8bad-4cb5-8eb4-4ab5f5d3a881@176.65.151.216:443?type=tcp&security=reality&sni=www.speedtest.net&fp=chrome&pbk=NanS_oFOjMiQWIckI1g6vlNuZN1lrOfjmgZdj4H_hwA&sid=426a8053#NL 🇳🇱 ┇ VLESS-TCP-RLT - Pfcloud UG ┇ 176.65.151.216
 vmess://eyJ2IjoiMiIsInBzIjoiTkwgXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIFBmY2xvdWQgVUcgXHUyNTA3IDE3Ni42NS4xNTEuNzYiLCJhZGQiOiJwbHVzLmFwYXJhdHJhdGluZm8uaXIiLCJwb3J0Ijo5NDQzLCJpZCI6IjQ5OWUzNmY0LWU3NWEtNDIxMC04NTNmLThjODQ5NzkwZDI1NyIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJodHRwIiwicGF0aCI6Ii8ifQ
-trojan://fjd46cjv-oh72-r56p-jqva-th2px7aodm4d@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://rjm7dqgw-4jhe-cp2g-xaw4-78x992w4iuko@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://1ca43e4d-f65a-4027-a9bf-cfb7eb091661@176.65.151.67:19257?type=kcp&security=none#NL 🇳🇱 ┇ VLESS-KCP-NTLS - Pfcloud UG ┇ 176.65.151.67
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGUExRYTN0WE9NeE5LQzRfUTNEeTVaRkRSb3dlVWJpOA@176.65.151.212:36937#NL 🇳🇱 ┇ SHADOWSOCKS-TCP-NTLS - Pfcloud UG ┇ 176.65.151.212
+vmess://eyJ2IjoiMiIsInBzIjoiTkwgXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIFx1MjUwNyBWTUVTUy1UQ1AtVExTIC0gUGZjbG91ZCBVRyBcdTI1MDcgMTc2LjY1LjE1MS42MSIsImFkZCI6Ik5sLmxpb24tbGlvbi5pciIsInBvcnQiOjgyNDMsImlkIjoiOWYwZDJlYjEtMWI5Ny00YjZhLThmNDktYTUyMTg2NTA4MTcxIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiTmwubGlvbi1saW9uLmlyIiwidGxzIjoidGxzIiwic25pIjoiTmwubGlvbi1saW9uLmlyIn0
+trojan://bnmpcaz5-bxl2-vmgz-fetp-zem7o446vdjg@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://bz3modeo-6ttt-tevm-ak8u-46lsmqd7megx@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
