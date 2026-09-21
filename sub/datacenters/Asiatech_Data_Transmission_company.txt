@@ -1,17 +1,15 @@
-trojan://343a4gxh-7l23-yjgm-8shf-pkhw615vvlp7@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-09-21 | 04:41 ]
-trojan://jilrro8q-9x6u-9tfb-d5on-4b4tkk74t00h@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://0qcvyj04-x0fv-krnr-0x18-f9f3ymxfejqo@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-trojan://eLpjAXg6pM@sv1.ahsg.top:5060?sni=vkvd127.mycdn.me&peer=vkvd127.mycdn.me&security=tls#IR 🇮🇷 ┇ TROJAN-TCP-TLS - Asiatech Data Transmission company ┇ 79.127.66.2
-vless://420349f3-6024-4457-bde6-b3d11183d728@31.216.62.198:20391?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 31.216.62.198
-vless://c4ec4179-1d0b-41f5-ae98-fd46b1aa98e6@46.245.64.203:2095?type=ws&security=none&path=/#IR 🇮🇷 ┇ VLESS-WS-NTLS - Asiatech Data Transmission company ┇ 46.245.64.203
-vless://6a89dc04-7781-46fe-b35c-e14a6b6e60b8@allsms.rozfa.com:443?type=ws&security=tls&path=/Telegram-@V2ray_Alpha/?ed=2048&sni=test-teSt-tEsT-teSt.pagES.DEv&fp=randomized#IR 🇮🇷 ┇ VLESS-WS-TLS - Asiatech Data Transmission company ┇ 79.127.127.68
-vless://ab8543cd-0e65-4b74-f5ad-932cffe0a12a@37.156.145.183:40652?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 37.156.145.183
-vless://aca7039a-eb24-404d-94ac-28099c5b9afd@79.127.70.123:2083?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 79.127.70.123
-vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFzaWF0ZWNoIERhdGEgVHJhbnNtaXNzaW9uIGNvbXBhbnkgXHUyNTA3IDIxMi4zMy4yMDIuMTgyIiwiYWRkIjoidmlwMS5zaG93dGltZWxlc3Muc2l0ZSIsInBvcnQiOjg4ODAsImlkIjoiOTBlZTU1ZDgtMjY1MS00ZDBhLWI5ZGMtZjNkNGJkYzdjMjk1IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
-vless://d843b700-0e0d-5ad9-72d9-46ced5785cd1@212.33.201.187:2051?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 212.33.201.187
+trojan://qzy1tbpx-dsy4-cac7-sejv-nhquz1mjn129@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-09-21 | 09:56 ]
+trojan://w56q51sh-jblx-agyi-k19o-qjwgznkshd15@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://bm14ynd8-o3jm-mvst-fwhn-807dcuwylsrj@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 ss://YWVzLTEyOC1nY206T09TV0RZWFRTUldNVEFFSUo4WFVDRDI3UjJGMzg0T0RLVEhYRjQxWUxSVjQ@185.112.32.244:31792#IR 🇮🇷 ┇ SHADOWSOCKS-TCP-NTLS - Asiatech Data Transmission company ┇ 185.112.32.244
 vless://1f216ab5-b0bb-44f4-8222-a05eb8c8cc7c@194.36.174.160:15300?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 194.36.174.160
 vless://dfbc8ba5-b414-4910-940d-288ed2596b76@46.245.72.5:21261?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 46.245.72.5
+vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFzaWF0ZWNoIERhdGEgVHJhbnNtaXNzaW9uIGNvbXBhbnkgXHUyNTA3IDIxMi4zMy4yMDIuMTgyIiwiYWRkIjoidmlwMS5zaG93dGltZWxlc3Muc2l0ZSIsInBvcnQiOjg4ODAsImlkIjoiOTBlZTU1ZDgtMjY1MS00ZDBhLWI5ZGMtZjNkNGJkYzdjMjk1IiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUifQ
+vless://aca7039a-eb24-404d-94ac-28099c5b9afd@79.127.70.123:2083?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 79.127.70.123
+vless://d843b700-0e0d-5ad9-72d9-46ced5785cd1@212.33.201.187:2051?type=tcp&security=none#IR 🇮🇷 ┇ VLESS-TCP-NTLS - Asiatech Data Transmission company ┇ 212.33.201.187
 vmess://eyJ2IjoiMiIsInBzIjoiSVIgXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3IFx1MjUwNyBWTUVTUy1UQ1AtTlRMUyAtIEFzaWF0ZWNoIERhdGEgVHJhbnNtaXNzaW9uIGNvbXBhbnkgXHUyNTA3IDIxMi4zMy4yMDIuMTYiLCJhZGQiOiJ2aXAyLnNob3d0aW1lbGVzcy5zaXRlIiwicG9ydCI6ODA1NSwiaWQiOiJiNjQxYjRhYi0xM2U2LTRkZDgtODAzZi0xYjg5MTQxOWMzZDUiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSJ9
-trojan://qw4zkwbb-s5uo-o7ia-tnr1-h76mn16ytq5d@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://u80fczzz-tlte-a1c5-pz2l-qsie0uldrf8o@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://6a89dc04-7781-46fe-b35c-e14a6b6e60b8@allsms.rozfa.com:443?type=ws&security=tls&path=/Telegram-@V2ray_Alpha/?ed=2048&sni=test-teSt-tEsT-teSt.pagES.DEv&fp=randomized#IR 🇮🇷 ┇ VLESS-WS-TLS - Asiatech Data Transmission company ┇ 79.127.127.68
+vless://c4ec4179-1d0b-41f5-ae98-fd46b1aa98e6@46.245.64.203:2095?type=ws&security=none&path=/#IR 🇮🇷 ┇ VLESS-WS-NTLS - Asiatech Data Transmission company ┇ 46.245.64.203
+trojan://eLpjAXg6pM@sv1.ahsg.top:5060?sni=vkvd127.mycdn.me&peer=vkvd127.mycdn.me&security=tls#IR 🇮🇷 ┇ TROJAN-TCP-TLS - Asiatech Data Transmission company ┇ 79.127.66.2
+trojan://t9oa5be1-9to1-jn1q-3owb-ii90tuzyybgq@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://a8xy7k7e-nn65-dnh8-zgb1-mxaiityit2kp@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
