@@ -1,13 +1,14 @@
-trojan://uhxx3m6i-0kwx-4035-pkbq-ywerayuq5wzo@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-10-21 | 13:44 ]
-trojan://acl07f4b-fhr2-vyhw-dddd-l7g6lzdu3ok0@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://uvrsgn6r-ty88-4son-4zwi-n6oms1msef9n@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://28629240-2a26-48ea-9149-5dce8bcbd5f4@217.19.122.142:15565?type=grpc&security=reality&sni=iv.kommersant.ru&fp=qq&pbk=5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw&sid=a5bd715862513387#RU 🇷🇺 ┇ VLESS-GRPC-RLT - PVimpelCom ┇ 217.19.122.142
-vless://e83af88a-a884-48ba-b462-a1edccff15e7@66.90.93.74:8443?type=ws&security=tls&path=/api/connect&sni=gateway-v1.bosx.net&fp=ios#RU 🇷🇺 ┇ VLESS-WS-TLS - PVimpelCom ┇ 66.90.93.74
+trojan://tpp1vs09-864q-ayqd-6gx1-nwff6z3djwv4@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-10-21 | 18:51 ]
+trojan://prl9ge60-tehz-vz4x-wtb3-aikgz0ev7uiv@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://gsmflgf6-2hfg-ux18-t6gl-z754rcty7jk9@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@217.19.122.234:9001?type=grpc&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#RU 🇷🇺 ┇ VLESS-GRPC-RLT - PVimpelCom ┇ 217.19.122.234
 vless://953358cb-82ba-4296-960d-6d2ec3468f4c@217.19.122.17:10654?type=xhttp&security=reality&path=/xhttp_client_upload&sni=bl3fk52.sysopnova.art&fp=firefox&pbk=ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM&sid=5c3fb122#RU 🇷🇺 ┇ VLESS-XHTTP-RLT - PVimpelCom ┇ 217.19.122.17
-vless://bc5ec86c-3e65-4272-994c-59a924c72a68@217.19.122.65:443?type=tcp&security=none&path=/ws?ed#RU 🇷🇺 ┇ VLESS-TCP-NTLS - PVimpelCom ┇ 217.19.122.65
-vless://bc5ec86c-3e65-4272-994c-59a924c72a68@217.19.122.200:443?type=ws&security=tls&path=/ws&sni=fbsv6.guardora.pro&fp=chrome#RU 🇷🇺 ┇ VLESS-WS-TLS - PVimpelCom ┇ 217.19.122.200
+vless://ecf728d9-1555-4e12-b178-1d8bd98465e4@217.19.122.47:443?type=raw&security=reality&sni=rulte.horizonless.pro&fp=chrome&flow=xtls-rprx-vision&pbk=0UUWi4Ds_Rp889_u0YNOX9PAiP10MLzetKrxS_Nhejc#RU 🇷🇺 ┇ VLESS-RAW-RLT - PVimpelCom ┇ 217.19.122.47
+vless://28629240-2a26-48ea-9149-5dce8bcbd5f4@217.19.122.142:15565?type=grpc&security=reality&sni=iv.kommersant.ru&fp=qq&pbk=5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw&sid=a5bd715862513387#RU 🇷🇺 ┇ VLESS-GRPC-RLT - PVimpelCom ┇ 217.19.122.142
+vless://e83af88a-a884-48ba-b462-a1edccff15e7@66.90.93.74:8443?type=ws&security=tls&path=/api/connect&sni=gateway-v1.bosx.net&fp=ios#RU 🇷🇺 ┇ VLESS-WS-TLS - PVimpelCom ┇ 66.90.93.74
 vless://a2bbb4ba-6d21-4ae0-9682-dacfbea98ae9@217.19.122.214:8448?type=tcp&security=reality&sni=cdp.x5.ru&fp=qq&flow=xtls-rprx-vision&pbk=jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U&sid=d681ac08#RU 🇷🇺 ┇ VLESS-TCP-RLT - PVimpelCom ┇ 217.19.122.214
+vless://bc5ec86c-3e65-4272-994c-59a924c72a68@217.19.122.200:443?type=ws&security=tls&path=/ws&sni=fbsv6.guardora.pro&fp=chrome#RU 🇷🇺 ┇ VLESS-WS-TLS - PVimpelCom ┇ 217.19.122.200
 vless://fd84e1b2-b3f7-4d8a-bbff-fe2d9065d076@66.90.90.10:443?type=tcp&security=reality&sni=wa.sfasti.ru&fp=chrome&flow=xtls-rprx-vision&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d#RU 🇷🇺 ┇ VLESS-TCP-RLT - PVimpelCom ┇ 66.90.90.10
-trojan://e4ecofiw-g8cp-yy65-9h24-fzxe78b9z2vr@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://josw3y6s-pps0-q6n3-lwun-g8ii8o4i94sq@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://bc5ec86c-3e65-4272-994c-59a924c72a68@217.19.122.65:443?type=tcp&security=none&path=/ws?ed#RU 🇷🇺 ┇ VLESS-TCP-NTLS - PVimpelCom ┇ 217.19.122.65
+trojan://ncapq9gy-d4zg-bz87-bg5y-2phcr1hkqd0y@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://m678tgjv-uukf-rrb5-ibfp-c9362fqnjne7@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
