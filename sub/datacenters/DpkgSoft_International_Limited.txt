@@ -1,18 +1,18 @@
-trojan://uz1u7ocf-p6uw-bkh2-fe7g-bd98n1dpiwwt@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-10-25 | 04:46 ]
-trojan://tl0r26hn-xgr4-x58i-gd4o-4cngl4oou28g@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://0y0v3vvx-j4cv-9all-ouup-45soi7sp9tcr@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://c44b365e-9ae3-4f9e-99eb-b90dfad85a3e@150.241.115.147:22555?type=tcp&security=none#US 🇺🇸 ┇ VLESS-TCP-NTLS - DpkgSoft International Limited ┇ 150.241.115.147
-vless://345e0ef7-6861-4722-ab44-799c37507b24@friren.iki-servers.com:443?type=xhttp&security=reality&path=/shield&sni=friren.iki-servers.com&fp=chrome&pbk=iD0nfLVyK9EbtFtKZgj_UcuGINq6yTqQM4jFfuTMFSY&sid=5f5962cc9ec6b180#RU 🇷🇺 ┇ VLESS-XHTTP-RLT - DpkgSoft International Limited ┇ 193.233.253.138
-vless://35da102e-536b-4103-9632-58c7c4c6303b@150.241.107.95:443?type=tcp&security=reality&sni=gr1.originmesh.online&fp=chrome&flow=xtls-rprx-vision&pbk=eCJwHto6UMfRpXErgAoIdvM13jTHrWqgBbIoj3apKkY&sid=eecfe76af97a6132#US 🇺🇸 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 150.241.107.95
-vless://f55e9aba-7b14-4f6f-b59a-d5b3d45c9309@193.233.74.6:8444?type=grpc&security=tls&sni=github.com&fp=firefox#RU 🇷🇺 ┇ VLESS-GRPC-TLS - DpkgSoft International Limited ┇ 193.233.74.6
-vless://f55e9aba-7b14-4f6f-b59a-d5b3d45c9309@193.233.253.180:8444?type=grpc&security=tls&sni=github.com&fp=chrome#RU 🇷🇺 ┇ VLESS-GRPC-TLS - DpkgSoft International Limited ┇ 193.233.253.180
-vless://281d153a-2fae-4725-84ed-602fb3627ca6@89.23.123.59:4443?type=tcp&security=reality&sni=github.com&fp=chrome&flow=xtls-rprx-vision&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&sid=aa7e96542880027a#RU 🇷🇺 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 89.23.123.59
-vless://56e605ca-3192-4cb4-9465-cb67245e17fd@77.239.108.97:443?type=tcp&security=reality&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw#US 🇺🇸 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 77.239.108.97
+trojan://p9z0qgpf-rc1n-8eov-y5yk-64z8h6hhlqy5@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-10-25 | 09:44 ]
+trojan://9sx41gya-nujg-j0ol-j0mo-y8c6hybflsyj@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://bzu38but-jlbu-zx3z-u220-ltr5da8xhkv1@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?sni=87.121.218.169&peer=87.121.218.169&security=tls#BG 🇧🇬 ┇ TROJAN-TCP-TLS - DpkgSoft International Limited ┇ 87.121.218.169
+vless://56e605ca-3192-4cb4-9465-cb67245e17fd@77.239.108.97:443?type=tcp&security=reality&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw#US 🇺🇸 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 77.239.108.97
+vless://8810010d-dacf-4cad-a54a-89e5aceda0f2@193.233.80.34:8443?type=tcp&security=reality&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#RU 🇷🇺 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 193.233.80.34
 vless://616c7b3b-41f4-4038-88c6-d6fedd0ae4a7@87.251.19.220:443?type=tcp&security=reality&sni=est-3.ardesnode.ru&fp=firefox&flow=xtls-rprx-vision&pbk=PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs&sid=9ea74b83f4993ca9#US 🇺🇸 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 87.251.19.220
+vless://f55e9aba-7b14-4f6f-b59a-d5b3d45c9309@193.233.74.6:8444?type=grpc&security=tls&sni=github.com&fp=firefox#RU 🇷🇺 ┇ VLESS-GRPC-TLS - DpkgSoft International Limited ┇ 193.233.74.6
+vless://35da102e-536b-4103-9632-58c7c4c6303b@150.241.107.95:443?type=tcp&security=reality&sni=gr1.originmesh.online&fp=firefox&flow=xtls-rprx-vision&pbk=eCJwHto6UMfRpXErgAoIdvM13jTHrWqgBbIoj3apKkY&sid=eecfe76af97a6132#US 🇺🇸 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 150.241.107.95
+vless://4d77a5d2-51ed-4494-b38a-87f340591db6@se.pink-service.ru:11443?type=grpc&security=reality&sni=www.google.com&fp=chrome&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sid=86b80f1e713a33ad#RU 🇷🇺 ┇ VLESS-GRPC-RLT - DpkgSoft International Limited ┇ 193.233.252.210
+vless://c44b365e-9ae3-4f9e-99eb-b90dfad85a3e@150.241.115.147:22555?type=tcp&security=none#US 🇺🇸 ┇ VLESS-TCP-NTLS - DpkgSoft International Limited ┇ 150.241.115.147
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@83.143.113.26:443?type=ws&security=tls&path=/?ed=2560&Telegram🇨🇳@WangCai2&sni=sni.111000.indevs.in&fp=chrome#BG 🇧🇬 ┇ VLESS-WS-TLS - DpkgSoft International Limited ┇ 83.143.113.26
 vless://dbaad930-a738-4a71-9afc-fe8711ff8265@185.246.222.96:1082?type=tcp&security=reality&sni=yahoo.com&fp=random&flow=xtls-rprx-vision&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&sid=ea1058117be12087#BG 🇧🇬 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 185.246.222.96
-vless://8810010d-dacf-4cad-a54a-89e5aceda0f2@193.233.80.34:8443?type=tcp&security=reality&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#RU 🇷🇺 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 193.233.80.34
-vless://5ad13ef8-ced8-43b5-9d8c-f046a3ce9ddc@185.103.100.211:443?type=tcp&security=reality&sni=msk2e.g-magnum.icu&fp=firefox&flow=xtls-rprx-vision&pbk=sRmbdpwZ5gtUVEu1BMXE71DRHDWhBLCoLh6QiFazm2U&sid=1b2a3f#DE 🇩🇪 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 185.103.100.211
-trojan://oh3fyt5v-rddp-f35b-dzkx-l87p73ldy15l@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://oxyf5g7y-c9hj-pku8-2n9g-nxy73f9a92j6@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://345e0ef7-6861-4722-ab44-799c37507b24@friren.iki-servers.com:443?type=xhttp&security=reality&path=/shield&sni=friren.iki-servers.com&fp=chrome&pbk=iD0nfLVyK9EbtFtKZgj_UcuGINq6yTqQM4jFfuTMFSY&sid=5f5962cc9ec6b180#RU 🇷🇺 ┇ VLESS-XHTTP-RLT - DpkgSoft International Limited ┇ 193.233.253.138
+vless://f55e9aba-7b14-4f6f-b59a-d5b3d45c9309@193.233.253.180:8444?type=grpc&security=tls&sni=github.com&fp=chrome#RU 🇷🇺 ┇ VLESS-GRPC-TLS - DpkgSoft International Limited ┇ 193.233.253.180
+vless://281d153a-2fae-4725-84ed-602fb3627ca6@89.23.123.59:4443?type=tcp&security=reality&sni=github.com&fp=chrome&flow=xtls-rprx-vision&pbk=5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE&sid=aa7e96542880027a#RU 🇷🇺 ┇ VLESS-TCP-RLT - DpkgSoft International Limited ┇ 89.23.123.59
+trojan://v2jz2lc8-f1j3-20ho-5c86-3zhix1wirwlb@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://2j992zzw-ml4g-kbkp-mhwq-er5ekew4dqmv@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
