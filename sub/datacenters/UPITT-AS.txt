@@ -1,20 +1,20 @@
-trojan://fs0fc43n-s3qi-zquz-qsx8-0kx0f558hjbe@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-03 | 18:43 ]
-trojan://1o90ce14-49ha-yzb1-q1l8-qzodfe7epws8@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://oh21b1rm-itss-52d6-4mi0-2i0iu7fmak8l@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?type=tcp&security=tls&sni=de-2.ffpn.pro&fp=firefox&flow=xtls-rprx-vision#US 🇺🇸 ┇ VLESS-TCP-TLS - UPITT-AS ┇ 130.49.177.193
-vless://bb20d3fc-fc15-0935-11c5-82775c39e6b0@130.49.77.7:443?type=xhttp&security=reality&path=/&sni=download.nvidia.com&fp=chrome&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM#US 🇺🇸 ┇ VLESS-XHTTP-RLT - UPITT-AS ┇ 130.49.77.7
-vless://b2141c97-76af-ff6f-839b-70a53e23aad9@130.49.77.6:443?type=xhttp&security=reality&path=/&sni=www.philips.com&fp=chrome&pbk=Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ#US 🇺🇸 ┇ VLESS-XHTTP-RLT - UPITT-AS ┇ 130.49.77.6
-vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?type=tcp&security=reality&sni=site.rumedia-cdn.com&flow=xtls-rprx-vision&pbk=4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM&sid=808a7e8a2e32c697#US 🇺🇸 ┇ VLESS-TCP-RLT - UPITT-AS ┇ 130.49.185.196
-vless://4d77a5d2-51ed-4494-b38a-87f340591db6@se.pink-service.ru:11443?type=grpc&security=reality&sni=www.google.com&fp=chrome&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sid=86b80f1e713a33ad#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.190.244
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoVFRnN2x3UU16cGFGN0tYcFkzQTh3@alb.rvpn.app:8388#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - UPITT-AS ┇ 130.49.189.54
+trojan://xugpio4h-yk69-mg7q-dhyr-919mxx633b8k@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-04 | 00:35 ]
+trojan://dnn1l8sc-h8nj-tn56-kkep-crcdw26tcaoh@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://oaydudk7-yak0-6wrh-bejy-3iczyvw5fw2q@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://1e4668ca-6526-84ac-2a53-28bbc209da13@130.49.77.5:8443?type=grpc&security=reality&sni=www.philips.com&fp=chrome&pbk=Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.77.5
 vless://2f7d9a89-c3a1-4d25-9f83-380048bbb38a@unitedstates.avara.fit:443?type=grpc&security=reality&sni=unitedstates.avara.fit&fp=firefox&pbk=WxIRkeZp5fISvmcQL0ZZs-VbMoS0FDDadMKwatzwljk#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.143.54
-vless://2ffa91fe-e1cc-4c44-a90a-45002feae978@130.49.189.146:6311?type=tcp&security=reality&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo#US 🇺🇸 ┇ VLESS-TCP-RLT - UPITT-AS ┇ 130.49.189.146
+vless://bb20d3fc-fc15-0935-11c5-82775c39e6b0@130.49.77.7:443?type=xhttp&security=reality&path=/&sni=download.nvidia.com&fp=chrome&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM#US 🇺🇸 ┇ VLESS-XHTTP-RLT - UPITT-AS ┇ 130.49.77.7
+vless://b2141c97-76af-ff6f-839b-70a53e23aad9@130.49.77.6:443?type=xhttp&security=reality&path=/&sni=www.philips.com&fp=chrome&pbk=Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ#US 🇺🇸 ┇ VLESS-XHTTP-RLT - UPITT-AS ┇ 130.49.77.6
 vless://e51796bb-3305-ac88-f39d-22fd9dd63b4f@130.49.77.3:443?type=xhttp&security=reality&path=/&sni=download.nvidia.com&fp=chrome&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM#US 🇺🇸 ┇ VLESS-XHTTP-RLT - UPITT-AS ┇ 130.49.77.3
 vless://4dc19f39-c28a-4cd1-b5e9-969e77ea2d09@usa2.dunnexa.ir:7006?type=tcp&security=reality&sni=play.googleapis.com&fp=ios&pbk=Z4jyvsRTqkXzZl79oWVd51iMbc5KdwIf2nujjjE4Dhw&sid=9754f7853fa7a056#US 🇺🇸 ┇ VLESS-TCP-RLT - UPITT-AS ┇ 130.49.189.21
 vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@130.49.178.164:8443?type=ws&security=tls&path=/pg/10086-dfc816f117c49173&sni=j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr&fp=chrome#US 🇺🇸 ┇ VLESS-WS-TLS - UPITT-AS ┇ 130.49.178.164
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjWkdyOG5MSGRmK0ZFNVpBdzBZL1J6c21sNEF5aWtHTDQ4MVBnN2VCcHNJPQ@130.49.189.158:43558#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - UPITT-AS ┇ 130.49.189.158
-vless://f0e0d780-a43b-98ef-d7fe-f628cfb1a606@130.49.77.8:8443?type=grpc&security=reality&sni=download.nvidia.com&fp=chrome&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.77.8
+vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?type=tcp&security=reality&sni=site.rumedia-cdn.com&flow=xtls-rprx-vision&pbk=4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM&sid=808a7e8a2e32c697#US 🇺🇸 ┇ VLESS-TCP-RLT - UPITT-AS ┇ 130.49.185.196
+vless://4d77a5d2-51ed-4494-b38a-87f340591db6@se.pink-service.ru:11443?type=grpc&security=reality&sni=www.google.com&fp=chrome&pbk=2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0&sid=86b80f1e713a33ad#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.190.244
 vless://8f0c1a18-be77-49de-9aca-8b649efb8710@130.49.187.97:443?type=grpc&security=reality&sni=google.com&pbk=2nKanJImME7wWPXjX-O8gJqlpn5udynqp0W6Ns_jm0w&sid=01#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.187.97
-trojan://n9awd52y-sqy3-vxkc-ft1q-np4xu73ioh6e@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://9rjvrejp-eqt8-dl06-uhiv-rg56lt6f15ao@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://f0e0d780-a43b-98ef-d7fe-f628cfb1a606@130.49.77.8:8443?type=grpc&security=reality&sni=download.nvidia.com&fp=chrome&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM#US 🇺🇸 ┇ VLESS-GRPC-RLT - UPITT-AS ┇ 130.49.77.8
+vless://2ffa91fe-e1cc-4c44-a90a-45002feae978@130.49.189.146:6311?type=tcp&security=reality&sni=play.google.com&fp=qq&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo#US 🇺🇸 ┇ VLESS-TCP-RLT - UPITT-AS ┇ 130.49.189.146
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoVFRnN2x3UU16cGFGN0tYcFkzQTh3@alb.rvpn.app:8388#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - UPITT-AS ┇ 130.49.189.54
+vless://727a9178-d7f0-4142-8205-b0d19959ded0@de-2.ffpn.pro:443?type=tcp&security=tls&sni=de-2.ffpn.pro&fp=firefox&flow=xtls-rprx-vision#US 🇺🇸 ┇ VLESS-TCP-TLS - UPITT-AS ┇ 130.49.177.193
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuUWVFb1hDNVlsNVBablBMdktVcEZUVTljeVFjTkc5MDJ6cGliV2t3R2JvPQ@130.49.189.158:43558#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - UPITT-AS ┇ 130.49.189.158
+trojan://wbumr2rf-iz1o-8p66-9hgr-r2yy9g9tlmhr@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://alvxfuf5-tgka-br7c-2ekp-9ljuo7rxgjo7@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
