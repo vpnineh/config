@@ -1,18 +1,17 @@
-trojan://6mmwxdy3-ov2e-k9ez-dpwz-46x0fvz3838d@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-12 | 01:39 ]
-trojan://umf22uqc-88fp-f6zq-k98u-7e0gn6963nbd@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://3fu8s344-dxqy-0zz1-2kpm-jwlu4shle84n@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWEY0X1hiMk1qRzdvLUh0MUZwNlA1ZHVSOW1SUnBkcQ@SUQ.Deev-Guard.ir:39128#BH 🇧🇭 ┇ SHADOWSOCKS-TCP-NTLS ┇ 188.137.236.192
-vless://d7cc299f-13c4-49de-8181-5600e234941d@188.137.228.139:48370?type=tcp&security=reality&sni=play.google.com&fp=chrome&flow=xtls-rprx-vision&pbk=zfpyEdwui3NTc2zbbxV9BQvF_rvw86EOr8rLQpjku2A&sid=dd87d6bd8e0d#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.228.139
-vless://762ca06a-daba-4510-8533-7ba0667fb1f1@188.137.230.245:8880?type=ws&security=none&path=/#BH 🇧🇭 ┇ VLESS-WS-NTLS ┇ 188.137.230.245
-vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@188.137.237.14:8444?type=ws&security=tls&path=/api/v1/devices/317eb6a07b/telemetry&sni=nl16.meshbeat.online&fp=firefox#BH 🇧🇭 ┇ VLESS-WS-TLS ┇ 188.137.237.14
-vless://bff43cfe-8222-4b33-a13d-8e759caefa8a@188.137.235.28:39070?type=tcp&security=none#BH 🇧🇭 ┇ VLESS-TCP-NTLS ┇ 188.137.235.28
-vless://4f5e791a-1c8e-4313-b36e-13103fc07609@188.137.252.249:443?type=xhttp&security=tls&path=/y64dg77dnk7xzr5k&sni=ams3.vpspanel.shop&fp=chrome#BH 🇧🇭 ┇ VLESS-XHTTP-TLS ┇ 188.137.252.249
+trojan://vol0wrsj-abzu-6exi-12sh-fro10iinvrdn@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-12 | 06:35 ]
+trojan://d7rda20q-wmsz-g81j-dttl-w1md59afzt06@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://pno13ht8-jvel-p1zi-gvz8-e3hinaxz167z@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://d9d0f208-d582-41d5-bb7b-742671402810@188.137.242.143:443?type=tcp&security=reality&sni=us-main-1.hanvpn.biz&fp=chrome&flow=xtls-rprx-vision&pbk=RY0VjR_1hwb6oO9FvhRvFOjf4iLfYC95xagmDdk2fCA&sid=54b5a7681806bc97#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.242.143
-vless://ac195240-6005-412b-9829-1e56e5d5c52a@188.137.245.206:443?type=tcp&security=reality&sni=ddfs.ummapeople.online&fp=chrome&flow=xtls-rprx-vision&pbk=NPt7NbrWjFl5Uq8xIuolxDDJFTzj5x5jwmiSTRPuuD8#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.245.206
-vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?type=ws&security=none&path=/fp=chromesecurity=tls&sni=fs.qicai99.com#BH 🇧🇭 ┇ VLESS-WS-NTLS ┇ 188.137.178.174
 vless://1f619326-cd93-4d6b-aebe-e0b5f8831d02@188.137.235.179:8444?type=ws&security=tls&path=/api/v1/devices/7c05e2fb91/telemetry&sni=nl3.meshbeat.online#BH 🇧🇭 ┇ VLESS-WS-TLS ┇ 188.137.235.179
+vless://a8321cfe-39a2-48a0-a918-f01f7d9006ed@188.137.237.14:8444?type=ws&security=tls&path=/api/v1/devices/317eb6a07b/telemetry&sni=nl16.meshbeat.online&fp=firefox#BH 🇧🇭 ┇ VLESS-WS-TLS ┇ 188.137.237.14
+vless://d7cc299f-13c4-49de-8181-5600e234941d@188.137.228.139:48370?type=tcp&security=reality&sni=play.google.com&fp=chrome&flow=xtls-rprx-vision&pbk=zfpyEdwui3NTc2zbbxV9BQvF_rvw86EOr8rLQpjku2A&sid=dd87d6bd8e0d#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.228.139
+vless://99c5b713-dedf-4a10-8070-916ff3f49b0e@188.137.178.174:8443?type=ws&security=tls&path=/fp=chrome&sni=fs.qicai99.com#BH 🇧🇭 ┇ VLESS-WS-TLS ┇ 188.137.178.174
+vless://4f5e791a-1c8e-4313-b36e-13103fc07609@188.137.252.249:443?type=xhttp&security=tls&path=/y64dg77dnk7xzr5k&sni=ams3.vpspanel.shop&fp=chrome#BH 🇧🇭 ┇ VLESS-XHTTP-TLS ┇ 188.137.252.249
+vless://ac195240-6005-412b-9829-1e56e5d5c52a@188.137.245.206:443?type=tcp&security=reality&sni=ddfs.ummapeople.online&fp=chrome&flow=xtls-rprx-vision&pbk=NPt7NbrWjFl5Uq8xIuolxDDJFTzj5x5jwmiSTRPuuD8#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.245.206
 vless://e0bc6cd5-892b-4b4c-80e4-88ee92e05dc7@188.137.227.194:30393?type=tcp&security=reality&sni=play-apps-features.googleusercontent.com&fp=chrome&pbk=DiPkDPf7ldR7GvXWLo0j7s7IsdvDZrOUfKHVmHO46mM&sid=8559#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.227.194
 vless://2b13751c-0372-4b07-8b4d-49459c5c4681@188.137.239.58:28618?type=tcp&security=none#BH 🇧🇭 ┇ VLESS-TCP-NTLS ┇ 188.137.239.58
+vless://762ca06a-daba-4510-8533-7ba0667fb1f1@188.137.230.245:8880?type=ws&security=none&path=/#BH 🇧🇭 ┇ VLESS-WS-NTLS ┇ 188.137.230.245
 vless://25fbd2b5-3263-4bae-a7e5-a2bd4b679424@188.137.251.183:51053?type=tcp&security=reality&sni=play-apps-features.googleusercontent.com&fp=chrome&pbk=uRsgB9Pp5QwwMS7cmv6KSUVSS0Iz0QAXrI6qQaZUTAI&sid=4feec2#BH 🇧🇭 ┇ VLESS-TCP-RLT ┇ 188.137.251.183
-trojan://vartqwd7-wjj2-pffg-7nlg-r426506d7rj2@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://b98lymvh-9q5p-y04j-eqid-4xk5kw6ujxt1@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://bff43cfe-8222-4b33-a13d-8e759caefa8a@188.137.235.28:39070?type=tcp&security=none#BH 🇧🇭 ┇ VLESS-TCP-NTLS ┇ 188.137.235.28
+trojan://9mjgi915-4oau-9c9h-3pt0-26zxz51zxgsu@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://iakja7gk-crkk-znip-ptxy-uo9wt6q9ujbn@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
