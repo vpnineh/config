@@ -1,18 +1,18 @@
-trojan://7btjoll3-65wc-ibqt-mz9d-kognp0w08mcr@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-21 | 05:49 ]
-trojan://wrpnrn0a-67wt-36fv-vk1l-w2z3aykvzv39@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://ozj0l0od-ovk7-z19p-wibf-7zdmfmbjsoe6@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+trojan://i00zuy3z-gkc6-pbha-zdmu-usp2ccugl4gj@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-21 | 13:31 ]
+trojan://iifa5517-eyn3-hfeq-hpu4-89krpkxc2oie@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://r3zc3pye-zirs-jm8n-vnaa-1w0jppcdeg5e@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
+vless://716426fa-bcb7-4eb9-b460-36399ebf740d@lizca2.footballfantasyforum.com:443?type=tcp&security=tls&sni=lizca2.footballfantasyforum.com#CA 🇨🇦 ┇ VLESS-TCP-TLS - IWEB-AS ┇ 184.107.106.68
 vless://36c3dcc2-17b6-4478-b8a7-3978e6d5afe9@184.107.88.177:8080?type=ws&security=none&path=/#CA 🇨🇦 ┇ VLESS-WS-NTLS - IWEB-AS ┇ 184.107.88.177
-vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn02.hirbilon.net:443?type=tcp&security=reality&sni=mn02.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=3LyOfYxF1pSJQDM1rhIm6xbiSC897TzOWw79vXpUPGI&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.129
+vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn03.hirbilon.net:443?type=tcp&security=reality&sni=mn03.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=sOihvb9lCHfYgNJ5FlE_7EHChjI27qnKfPF7ULdbFnA&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.253
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#CA 🇨🇦 ┇ SHADOWSOCKS-TCP-NTLS - IWEB-AS ┇ 184.107.106.77
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#CA 🇨🇦 ┇ SHADOWSOCKS-TCP-NTLS - IWEB-AS ┇ 184.107.106.78
+vless://31e407b3-6e1e-425f-98ea-fcf8f494c6a0@tiles.livemusic.ac:443?type=tcp&security=reality&sni=tiles.livemusic.ac&fp=chrome&flow=xtls-rprx-vision&pbk=ce4LuJ4af5mZzrprtd7qh2fCXuzurE6KjQtG-DnVQyE&sid=cf81dd1ffdc0d4e3#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 184.107.78.28
 vless://e2be0db4-4110-42eb-bca1-ba8df0897319@198.50.119.86:8080?type=ws&security=none&path=/39427/Nextlife#CA 🇨🇦 ┇ VLESS-WS-NTLS - IWEB-AS ┇ 198.50.119.86
 vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn5.hirbilon.net:443?type=tcp&security=reality&sni=mn5.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=fvj5mNVpyGagjF-7ebmJQcAqs3zSAzmxjjZeHPlY6lw&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.161
-vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn1.hirbilon.net:443?type=tcp&security=reality&sni=mn1.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=pakeMwqKbfmqo9jOwgIJTCMIn2MYGKk95TpcYLDyEEI&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.60
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#CA 🇨🇦 ┇ SHADOWSOCKS-TCP-NTLS - IWEB-AS ┇ 184.107.106.77
+vless://e45b8261-88c9-4181-aab4-72093dfae6b9@184.107.179.150:8443?type=raw&security=reality&sni=www.kpn.com&fp=chrome&flow=xtls-rprx-vision&pbk=FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4&sid=40a4615253b8f75d#CA 🇨🇦 ┇ VLESS-RAW-RLT - IWEB-AS ┇ 184.107.179.150
 vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn05.hirbilon.net:443?type=tcp&security=reality&sni=mn05.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=B08PYFn9V_dsy4EE4bSqjfilyJy8RYLnqoRGsWYRdwU&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.231
-vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn03.hirbilon.net:443?type=tcp&security=reality&sni=mn03.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=sOihvb9lCHfYgNJ5FlE_7EHChjI27qnKfPF7ULdbFnA&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.253
-vless://716426fa-bcb7-4eb9-b460-36399ebf740d@lizca2.footballfantasyforum.com:443?type=tcp&security=tls&sni=lizca2.footballfantasyforum.com#CA 🇨🇦 ┇ VLESS-TCP-TLS - IWEB-AS ┇ 184.107.106.68
-vless://e45b8261-88c9-4181-aab4-72093dfae6b9@184.107.179.150:8443?type=tcp&security=reality&sni=www.kpn.com&fp=firefox&flow=xtls-rprx-vision&pbk=FZvOenkKu_0DspnZA7Nc7xgWhR0_Z0MvqhntPqPchV4&sid=40a4615253b8f75d#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 184.107.179.150
+vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn02.hirbilon.net:443?type=tcp&security=reality&sni=mn02.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=3LyOfYxF1pSJQDM1rhIm6xbiSC897TzOWw79vXpUPGI&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.129
 vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn06.hirbilon.net:443?type=tcp&security=reality&sni=mn06.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=HOrXNkH_IfWvuuLqci20ufZgMSIagpxK6oQwud9-YAk&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.80
-vless://31e407b3-6e1e-425f-98ea-fcf8f494c6a0@tiles.livemusic.ac:443?type=tcp&security=reality&sni=tiles.livemusic.ac&fp=chrome&flow=xtls-rprx-vision&pbk=ce4LuJ4af5mZzrprtd7qh2fCXuzurE6KjQtG-DnVQyE&sid=cf81dd1ffdc0d4e3#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 184.107.78.28
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.78:8388#CA 🇨🇦 ┇ SHADOWSOCKS-TCP-NTLS - IWEB-AS ┇ 184.107.106.78
-trojan://qi7odl8q-zsfk-3u59-vya6-a2lf70xwsh5o@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://kf51ybjk-ndgj-i4xd-c1rd-1bk1ree4pjlj@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+vless://2c20cd0b-16a9-4dc4-9a13-16f47822c9b0@mn1.hirbilon.net:443?type=tcp&security=reality&sni=mn1.hirbilon.net&fp=chrome&flow=xtls-rprx-vision&pbk=pakeMwqKbfmqo9jOwgIJTCMIn2MYGKk95TpcYLDyEEI&sid=05f6a5418c2a6865#CA 🇨🇦 ┇ VLESS-TCP-RLT - IWEB-AS ┇ 86.107.168.60
+trojan://2tzmimkb-4f1q-ss36-jj8y-amrjrvra5p2f@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://r4n8hnfj-dgu5-zfw4-n7m9-yh4wcq4f6dw4@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
