@@ -1,14 +1,14 @@
-trojan://15lqfez0-ri21-ktxk-43oj-xr2qokcx3qbd@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-22 | 18:53 ]
-trojan://ohnymy2o-h403-8pwp-y08w-nrd0t5obyl2r@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
-trojan://4fpwpulh-p44d-7c6c-7mc5-30adt5bmazx6@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNanUzWlNhYTRRVms0NW1j@74.50.98.185:8080#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - HVC-AS ┇ 74.50.98.185
+trojan://q79p62g8-2pf5-di0k-q6fr-kdfh5yininuk@127.0.0.1:1080?security=tls&type=tcp#[ LAST UPDATE: 2026-11-23 | 01:22 ]
+trojan://xmlx1vyg-np2f-wp0v-jfvm-oa0e7l522dl9@127.0.0.1:2080?security=tls&type=tcp#「 ✨ Free Internet For All 」 @VPNineh
+trojan://nf50nbha-y1zh-auvq-0uhe-f53hbwt1gb6v@127.0.0.1:4080?security=tls&type=tcp#「 ☕ 」
 vless://29417656-42ee-430e-bd15-e95d6a7195cd@192.166.82.29:59050?type=tcp&security=none#DE 🇩🇪 ┇ VLESS-TCP-NTLS - HVC-AS ┇ 192.166.82.29
-vless://d9600d11-9b5b-4b25-88b0-851df319a218@192.166.82.182:48915?type=tcp&security=none#DE 🇩🇪 ┇ VLESS-TCP-NTLS - HVC-AS ┇ 192.166.82.182
-vless://8e633674-dd04-45c0-a900-04066988bd2e@38.180.204.189:443?type=tcp&security=reality&sni=google.com&fp=chrome&pbk=_WB4K6w5EoQuBAan6fsS9NPJf5wa6ggmxIa8No93ghM&sid=6553e6d9#US 🇺🇸 ┇ VLESS-TCP-RLT - HVC-AS ┇ 38.180.204.189
-vless://849e5ed7-90da-487e-a044-c9052563895c@192.166.82.52:443?type=tcp&security=reality&sni=delivery.mp.microsoft.com&fp=firefox&pbk=4YuPm6_B_Aa9Um70LtKFnVfA_F8uiwwmXChE_pyXjX8&sid=ec77cd113fc57140#DE 🇩🇪 ┇ VLESS-TCP-RLT - HVC-AS ┇ 192.166.82.52
 vless://414b2c7f-26e8-4c08-a357-a4f00043804e@192.166.82.74:8443?type=tcp&security=reality&sni=www.google.com&fp=ios&flow=xtls-rprx-vision&pbk=vmfswX2VwSAGOSd9gleiWLfZK8BVyMI7D6oMDPUjpCk&sid=f15240e5244c7ba8#DE 🇩🇪 ┇ VLESS-TCP-RLT - HVC-AS ┇ 192.166.82.74
-vless://20d56ff9-359e-4983-9b04-6402e9ebce08@145.79.187.52:443?type=xhttp&security=reality&path=/&sni=edge.savesafe.info&fp=firefox&pbk=Zz_n3cpItqh107oNUK15eu-3Ac4TpS5gB_6plrRrZj8&sid=9f3df965329a8e8f#DE 🇩🇪 ┇ VLESS-XHTTP-RLT - HVC-AS ┇ 145.79.187.52
 trojan://c1d83c0c7d57cead4379ba14a82df69b@38.180.193.194:443?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#US 🇺🇸 ┇ TROJAN-TCP-TLS - HVC-AS ┇ 38.180.193.194
+vless://d9600d11-9b5b-4b25-88b0-851df319a218@192.166.82.182:48915?type=tcp&security=none#DE 🇩🇪 ┇ VLESS-TCP-NTLS - HVC-AS ┇ 192.166.82.182
+vless://849e5ed7-90da-487e-a044-c9052563895c@192.166.82.52:443?type=tcp&security=reality&sni=delivery.mp.microsoft.com&fp=firefox&pbk=4YuPm6_B_Aa9Um70LtKFnVfA_F8uiwwmXChE_pyXjX8&sid=ec77cd113fc57140#DE 🇩🇪 ┇ VLESS-TCP-RLT - HVC-AS ┇ 192.166.82.52
+vless://8e633674-dd04-45c0-a900-04066988bd2e@38.180.204.189:443?type=tcp&security=reality&sni=google.com&fp=chrome&pbk=_WB4K6w5EoQuBAan6fsS9NPJf5wa6ggmxIa8No93ghM&sid=6553e6d9#US 🇺🇸 ┇ VLESS-TCP-RLT - HVC-AS ┇ 38.180.204.189
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNanUzWlNhYTRRVms0NW1j@74.50.98.185:8080#US 🇺🇸 ┇ SHADOWSOCKS-TCP-NTLS - HVC-AS ┇ 74.50.98.185
+vless://20d56ff9-359e-4983-9b04-6402e9ebce08@145.79.187.52:443?type=xhttp&security=reality&path=/&sni=edge.savesafe.info&fp=firefox&pbk=Zz_n3cpItqh107oNUK15eu-3Ac4TpS5gB_6plrRrZj8&sid=9f3df965329a8e8f#DE 🇩🇪 ┇ VLESS-XHTTP-RLT - HVC-AS ┇ 145.79.187.52
 vmess://eyJ2IjoiMiIsInBzIjoiREUgXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhIFx1MjUwNyBWTUVTUy1XUy1UTFMgLSBIVkMtQVMgXHUyNTA3IDE5Mi4xNjYuODIuMjEiLCJhZGQiOiIxOTIuMTY2LjgyLjIxIiwicG9ydCI6NDQzLCJpZCI6ImZmZThhZTQ5LTA1ZDctNGY1Ni1hODJiLWRkNjE4MTA4YzI3MCIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwiaG9zdCI6InVzLXNsYy1nbG9iYWwxLnhlb3ZvLmV1IiwicGF0aCI6Ii9zYWNhY2EiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJ1cy1zbGMtZ2xvYmFsMS54ZW92by5ldSJ9
-trojan://f2k85xc5-4m81-dqjt-ks94-p55z4hshabgk@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
-trojan://56t6sgxd-ba9l-yalp-w2lm-gr3yy9r575vv@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
+trojan://vfesncfq-t311-roge-26l3-yg2cyxmp1zmw@127.0.0.1:8080?security=tls&type=tcp#❤️ Your Daily Dose of Proxies @VPNineh
+trojan://xnhqhhub-0gwd-f832-fz5o-8ifoggpnzo7e@127.0.0.1:8081?security=tls&type=tcp#</> Collector v6.0.0
